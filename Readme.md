@@ -831,3 +831,6 @@ builder.Host.UseSerilog((context, logger) => {
 日志显示页面只显示包含[token:456]的报错信息。
 
 真实项目中如果要设定一些日志的额外信息，可通Enrichment来设置，详细信息可查看https://github.com/serilog/serilog/wiki/Enrichment。
+
+示例源代码：https://github.com/fisherLB/WebApiBrowserLog
+
