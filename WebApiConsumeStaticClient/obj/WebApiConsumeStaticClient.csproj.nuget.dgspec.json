@@ -1,0 +1,163 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\StudyCode\\AbpDemo\\MyselfDemo\\WebApiConsumeStaticClient\\WebApiConsumeStaticClient\\WebApiConsumeStaticClient.csproj": {}
+  },
+  "projects": {
+    "E:\\StudyCode\\AbpDemo\\MyselfDemo\\WebApiConsumeStaticClient\\Lavspent.BrowserLogger\\Lavspent.BrowserLogger.csproj": {
+      "version": "0.0.2",
+      "restore": {
+        "projectUniqueName": "E:\\StudyCode\\AbpDemo\\MyselfDemo\\WebApiConsumeStaticClient\\Lavspent.BrowserLogger\\Lavspent.BrowserLogger.csproj",
+        "projectName": "Lavspent.BrowserLogger",
+        "projectPath": "E:\\StudyCode\\AbpDemo\\MyselfDemo\\WebApiConsumeStaticClient\\Lavspent.BrowserLogger\\Lavspent.BrowserLogger.csproj",
+        "packagesPath": "C:\\Users\\qmj\\.nuget\\packages\\",
+        "outputPath": "E:\\StudyCode\\AbpDemo\\MyselfDemo\\WebApiConsumeStaticClient\\Lavspent.BrowserLogger\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\qmj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://mirrors.nnland.cn/repository/nuget-group/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\StudyCode\\AbpDemo\\MyselfDemo\\WebApiConsumeStaticClient\\WebApiConsumeStaticClient\\WebApiConsumeStaticClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\StudyCode\\AbpDemo\\MyselfDemo\\WebApiConsumeStaticClient\\WebApiConsumeStaticClient\\WebApiConsumeStaticClient.csproj",
+        "projectName": "WebApiConsumeStaticClient",
+        "projectPath": "E:\\StudyCode\\AbpDemo\\MyselfDemo\\WebApiConsumeStaticClient\\WebApiConsumeStaticClient\\WebApiConsumeStaticClient.csproj",
+        "packagesPath": "C:\\Users\\qmj\\.nuget\\packages\\",
+        "outputPath": "E:\\StudyCode\\AbpDemo\\MyselfDemo\\WebApiConsumeStaticClient\\WebApiConsumeStaticClient\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\qmj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://mirrors.nnland.cn/repository/nuget-group/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\StudyCode\\AbpDemo\\MyselfDemo\\WebApiConsumeStaticClient\\Lavspent.BrowserLogger\\Lavspent.BrowserLogger.csproj": {
+                "projectPath": "E:\\StudyCode\\AbpDemo\\MyselfDemo\\WebApiConsumeStaticClient\\Lavspent.BrowserLogger\\Lavspent.BrowserLogger.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

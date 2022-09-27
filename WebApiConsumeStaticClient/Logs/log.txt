@@ -1,0 +1,1063 @@
+2022-09-26 17:26:20.627 +08:00 [INF] Now listening on: https://localhost:7208
+2022-09-26 17:26:20.675 +08:00 [INF] Now listening on: http://localhost:5208
+2022-09-26 17:26:20.692 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-26 17:26:20.694 +08:00 [INF] Hosting environment: Development
+2022-09-26 17:26:20.698 +08:00 [INF] Content root path: E:\StudyCode\AbpDemo\MyselfDemo\WebApiConsumeStaticClient\WebApiConsumeStaticClient\
+2022-09-26 17:26:22.545 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/index.html - -
+2022-09-26 17:26:23.343 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/index.html - - - 200 - text/html;charset=utf-8 807.9898ms
+2022-09-26 17:26:23.359 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-26 17:26:23.359 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-26 17:26:23.369 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12020 application/javascript;+charset=utf-8 10.0658ms
+2022-09-26 17:26:23.390 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 31.3604ms
+2022-09-26 17:26:23.497 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - -
+2022-09-26 17:26:23.598 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 101.2090ms
+2022-09-26 17:26:27.544 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/WeatherForecast - -
+2022-09-26 17:26:27.554 +08:00 [INF] Executing endpoint 'WebApiConsumeStaticClient.Controllers.WeatherForecastController.Get (WebApiConsumeStaticClient)'
+2022-09-26 17:26:27.579 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[WebApiConsumeStaticClient.WeatherForecast]] Get() on controller WebApiConsumeStaticClient.Controllers.WeatherForecastController (WebApiConsumeStaticClient).
+2022-09-26 17:26:27.702 +08:00 [INF] Executing action method WebApiConsumeStaticClient.Controllers.WeatherForecastController.Get (WebApiConsumeStaticClient) - Validation state: "Valid"
+2022-09-26 17:26:43.287 +08:00 [INF] 记录信息
+2022-09-26 17:26:43.294 +08:00 [INF] Executed action method WebApiConsumeStaticClient.Controllers.WeatherForecastController.Get (WebApiConsumeStaticClient), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 15583.9318ms.
+2022-09-26 17:26:43.301 +08:00 [INF] Executing ObjectResult, writing value of type 'WebApiConsumeStaticClient.WeatherForecast[]'.
+2022-09-26 17:26:43.313 +08:00 [INF] Executed action WebApiConsumeStaticClient.Controllers.WeatherForecastController.Get (WebApiConsumeStaticClient) in 15725.8555ms
+2022-09-26 17:26:43.329 +08:00 [INF] Executed endpoint 'WebApiConsumeStaticClient.Controllers.WeatherForecastController.Get (WebApiConsumeStaticClient)'
+2022-09-26 17:26:43.332 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/WeatherForecast - - - 200 - application/json;+charset=utf-8 15787.4859ms
+2022-09-26 17:42:33.316 +08:00 [INF] Now listening on: https://localhost:7208
+2022-09-26 17:42:33.336 +08:00 [INF] Now listening on: http://localhost:5208
+2022-09-26 17:42:33.342 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-26 17:42:33.344 +08:00 [INF] Hosting environment: Development
+2022-09-26 17:42:33.347 +08:00 [INF] Content root path: E:\StudyCode\AbpDemo\MyselfDemo\WebApiConsumeStaticClient\WebApiConsumeStaticClient\
+2022-09-26 17:42:35.037 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/index.html - -
+2022-09-26 17:42:35.741 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/index.html - - - 200 - text/html;charset=utf-8 711.2445ms
+2022-09-26 17:42:35.766 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-26 17:42:35.766 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-26 17:42:35.775 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12020 application/javascript;+charset=utf-8 8.9081ms
+2022-09-26 17:42:35.816 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 50.4813ms
+2022-09-26 17:42:35.985 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - -
+2022-09-26 17:42:36.113 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 127.5883ms
+2022-09-26 17:43:41.865 +08:00 [INF] Now listening on: https://localhost:7208
+2022-09-26 17:43:41.890 +08:00 [INF] Now listening on: http://localhost:5208
+2022-09-26 17:43:41.897 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-26 17:43:41.900 +08:00 [INF] Hosting environment: Development
+2022-09-26 17:43:41.903 +08:00 [INF] Content root path: E:\StudyCode\AbpDemo\MyselfDemo\WebApiConsumeStaticClient\WebApiConsumeStaticClient\
+2022-09-26 17:43:43.243 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/index.html - -
+2022-09-26 17:43:43.851 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/index.html - - - 200 - text/html;charset=utf-8 611.2432ms
+2022-09-26 17:43:43.864 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-26 17:43:43.864 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-26 17:43:43.870 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12020 application/javascript;+charset=utf-8 5.9256ms
+2022-09-26 17:43:43.892 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 28.2818ms
+2022-09-26 17:43:44.007 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - -
+2022-09-26 17:43:44.106 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 99.1373ms
+2022-09-26 17:44:00.996 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/con - -
+2022-09-26 17:44:01.001 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/con - - - 404 0 - 5.1483ms
+2022-09-26 17:49:35.817 +08:00 [INF] Now listening on: https://localhost:7208
+2022-09-26 17:49:35.841 +08:00 [INF] Now listening on: http://localhost:5208
+2022-09-26 17:49:35.846 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-26 17:49:35.847 +08:00 [INF] Hosting environment: Development
+2022-09-26 17:49:35.849 +08:00 [INF] Content root path: E:\StudyCode\AbpDemo\MyselfDemo\WebApiConsumeStaticClient\WebApiConsumeStaticClient\
+2022-09-26 17:49:37.441 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/index.html - -
+2022-09-26 17:49:37.990 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/index.html - - - 200 - text/html;charset=utf-8 558.7563ms
+2022-09-26 17:49:38.002 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-26 17:49:38.010 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-26 17:49:38.017 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12020 application/javascript;+charset=utf-8 7.3508ms
+2022-09-26 17:49:38.044 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 42.2530ms
+2022-09-26 17:49:38.200 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - -
+2022-09-26 17:49:38.320 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 120.0713ms
+2022-09-26 17:49:45.208 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/con - -
+2022-09-26 17:49:45.213 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/con - - - 404 0 - 4.7017ms
+2022-09-26 17:50:29.979 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/console - -
+2022-09-26 17:50:29.997 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/console - - - 404 0 - 17.8581ms
+2022-09-26 17:52:13.215 +08:00 [FTL] Application startup exception
+System.InvalidOperationException: Unable to resolve service for type 'Lavspent.BrowserLogger.BrowserLoggerService' while attempting to activate 'Lavspent.BrowserLogger.BrowserLoggerMiddleware'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.<ConfigureApplication>b__27_0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2022-09-26 17:53:24.139 +08:00 [INF] Now listening on: https://localhost:7208
+2022-09-26 17:53:24.409 +08:00 [INF] Now listening on: http://localhost:5208
+2022-09-26 17:53:24.414 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-26 17:53:24.417 +08:00 [INF] Hosting environment: Development
+2022-09-26 17:53:24.419 +08:00 [INF] Content root path: E:\StudyCode\AbpDemo\MyselfDemo\WebApiConsumeStaticClient\WebApiConsumeStaticClient\
+2022-09-26 17:53:25.341 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/index.html - -
+2022-09-26 17:53:26.017 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-26 17:53:26.017 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-26 17:53:26.054 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/index.html - - - 200 - text/html;charset=utf-8 707.6991ms
+2022-09-26 17:53:26.058 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12020 application/javascript;+charset=utf-8 40.6485ms
+2022-09-26 17:53:26.103 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 85.8716ms
+2022-09-26 17:53:26.234 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - -
+2022-09-26 17:53:26.383 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 149.0621ms
+2022-09-26 17:53:31.173 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/con - -
+2022-09-26 17:53:31.179 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/con - - - 404 0 - 6.7783ms
+2022-09-26 17:53:50.803 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/console - -
+2022-09-26 17:53:50.912 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/console - - - 200 - text/html 109.0342ms
+2022-09-26 17:53:50.926 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-26 17:53:50.926 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-26 17:53:50.929 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12020 application/javascript;+charset=utf-8 3.4258ms
+2022-09-26 17:53:50.951 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.2792ms
+2022-09-26 17:53:51.006 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/favicon.ico - -
+2022-09-26 17:53:51.007 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/favicon.ico - - - 404 0 - 1.5099ms
+2022-09-26 17:54:00.661 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/WeatherForecast - -
+2022-09-26 17:54:00.670 +08:00 [INF] Executing endpoint 'WebApiConsumeStaticClient.Controllers.WeatherForecastController.Get (WebApiConsumeStaticClient)'
+2022-09-26 17:54:00.697 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[WebApiConsumeStaticClient.WeatherForecast]] Get() on controller WebApiConsumeStaticClient.Controllers.WeatherForecastController (WebApiConsumeStaticClient).
+2022-09-26 17:54:00.784 +08:00 [INF] Executing action method WebApiConsumeStaticClient.Controllers.WeatherForecastController.Get (WebApiConsumeStaticClient) - Validation state: "Valid"
+2022-09-26 17:54:07.857 +08:00 [INF] 记录信息
+2022-09-26 17:54:07.862 +08:00 [INF] Executed action method WebApiConsumeStaticClient.Controllers.WeatherForecastController.Get (WebApiConsumeStaticClient), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 7068.4198ms.
+2022-09-26 17:54:07.873 +08:00 [INF] Executing ObjectResult, writing value of type 'WebApiConsumeStaticClient.WeatherForecast[]'.
+2022-09-26 17:54:07.887 +08:00 [INF] Executed action WebApiConsumeStaticClient.Controllers.WeatherForecastController.Get (WebApiConsumeStaticClient) in 7174.7004ms
+2022-09-26 17:54:07.892 +08:00 [INF] Executed endpoint 'WebApiConsumeStaticClient.Controllers.WeatherForecastController.Get (WebApiConsumeStaticClient)'
+2022-09-26 17:54:07.896 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/WeatherForecast - - - 200 - application/json;+charset=utf-8 7234.3736ms
+2022-09-26 17:54:12.016 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/console - -
+2022-09-26 17:54:12.039 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/console - - - 200 - text/html 23.1779ms
+2022-09-26 17:54:12.053 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-26 17:54:12.054 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-26 17:54:12.056 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12020 application/javascript;+charset=utf-8 2.2866ms
+2022-09-26 17:54:12.064 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 10.0841ms
+2022-09-26 17:58:46.251 +08:00 [INF] Now listening on: https://localhost:7208
+2022-09-26 17:58:46.432 +08:00 [INF] Now listening on: http://localhost:5208
+2022-09-26 17:58:46.438 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-26 17:58:46.440 +08:00 [INF] Hosting environment: Development
+2022-09-26 17:58:46.441 +08:00 [INF] Content root path: E:\StudyCode\AbpDemo\MyselfDemo\WebApiConsumeStaticClient\WebApiConsumeStaticClient\
+2022-09-26 17:58:47.498 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/index.html - -
+2022-09-26 17:58:47.952 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/index.html - - - 200 - text/html;charset=utf-8 457.7076ms
+2022-09-26 17:58:47.962 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-26 17:58:47.962 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-26 17:58:47.971 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12020 application/javascript;+charset=utf-8 8.7269ms
+2022-09-26 17:58:47.985 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 22.8253ms
+2022-09-26 17:58:48.096 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - -
+2022-09-26 17:58:48.163 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 66.9349ms
+2022-09-26 17:58:56.760 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/con - -
+2022-09-26 17:58:56.815 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/con - - - 200 - text/html 56.1071ms
+2022-09-26 17:58:56.820 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-26 17:58:56.820 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-26 17:58:56.825 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12020 application/javascript;+charset=utf-8 5.1303ms
+2022-09-26 17:58:56.837 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 17.6690ms
+2022-09-26 17:58:57.220 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-26 17:58:57.223 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12020 application/javascript;+charset=utf-8 2.9047ms
+2022-09-27 10:31:06.778 +08:00 [INF] Now listening on: https://localhost:7208
+2022-09-27 10:31:06.802 +08:00 [INF] Now listening on: http://localhost:5208
+2022-09-27 10:31:06.807 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-27 10:31:06.809 +08:00 [INF] Hosting environment: Development
+2022-09-27 10:31:06.811 +08:00 [INF] Content root path: E:\StudyCode\AbpDemo\MyselfDemo\WebApiConsumeStaticClient\WebApiConsumeStaticClient\
+2022-09-27 10:31:08.493 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/index.html - -
+2022-09-27 10:31:09.511 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/index.html - - - 200 - text/html;charset=utf-8 1022.6022ms
+2022-09-27 10:31:09.530 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 10:31:09.546 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 10:31:09.553 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 23.1089ms
+2022-09-27 10:31:09.647 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 100.7335ms
+2022-09-27 10:31:09.721 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - -
+2022-09-27 10:31:09.848 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 127.1315ms
+2022-09-27 10:36:45.582 +08:00 [INF] Now listening on: https://localhost:7208
+2022-09-27 10:36:45.601 +08:00 [INF] Now listening on: http://localhost:5208
+2022-09-27 10:36:45.606 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-27 10:36:45.608 +08:00 [INF] Hosting environment: Development
+2022-09-27 10:36:45.609 +08:00 [INF] Content root path: E:\StudyCode\AbpDemo\MyselfDemo\WebApiConsumeStaticClient\WebApiConsumeStaticClient\
+2022-09-27 10:36:46.742 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/index.html - -
+2022-09-27 10:36:47.268 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/index.html - - - 200 - text/html;charset=utf-8 529.4142ms
+2022-09-27 10:36:47.283 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 10:36:47.288 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 10:36:47.290 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 7.5323ms
+2022-09-27 10:36:47.315 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.5362ms
+2022-09-27 10:36:47.453 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - -
+2022-09-27 10:36:47.555 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 102.6131ms
+2022-09-27 10:36:56.559 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/log - -
+2022-09-27 10:36:56.565 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/log - - - 404 0 - 5.3450ms
+2022-09-27 10:37:00.258 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/con - -
+2022-09-27 10:37:00.261 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/con - - - 404 0 - 3.0555ms
+2022-09-27 10:37:39.656 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/con - -
+2022-09-27 10:37:39.658 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/con - - - 404 0 - 2.6414ms
+2022-09-27 10:38:02.102 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/WeatherForecast - -
+2022-09-27 10:38:02.106 +08:00 [INF] Executing endpoint 'WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog)'
+2022-09-27 10:38:02.126 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[WebApiBrowserLog.WeatherForecast]] Get() on controller WebApiBrowserLog.Controllers.WeatherForecastController (WebApiBrowserLog).
+2022-09-27 10:38:02.215 +08:00 [INF] Executing action method WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog) - Validation state: "Valid"
+2022-09-27 10:38:02.220 +08:00 [INF] 记录信息
+2022-09-27 10:38:02.226 +08:00 [INF] Executed action method WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3.2474ms.
+2022-09-27 10:38:02.235 +08:00 [INF] Executing ObjectResult, writing value of type 'WebApiBrowserLog.WeatherForecast[]'.
+2022-09-27 10:38:02.253 +08:00 [INF] Executed action WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog) in 114.4263ms
+2022-09-27 10:38:02.258 +08:00 [INF] Executed endpoint 'WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog)'
+2022-09-27 10:38:02.259 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/WeatherForecast - - - 200 - application/json;+charset=utf-8 156.9089ms
+2022-09-27 11:07:32.943 +08:00 [INF] Now listening on: https://localhost:7208
+2022-09-27 11:07:32.962 +08:00 [INF] Now listening on: http://localhost:5208
+2022-09-27 11:07:32.966 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-27 11:07:32.967 +08:00 [INF] Hosting environment: Development
+2022-09-27 11:07:32.969 +08:00 [INF] Content root path: E:\StudyCode\AbpDemo\MyselfDemo\WebApiConsumeStaticClient\WebApiConsumeStaticClient\
+2022-09-27 11:07:34.257 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/index.html - -
+2022-09-27 11:07:34.766 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 11:07:34.766 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 11:07:34.768 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/index.html - - - 200 - text/html;charset=utf-8 514.3479ms
+2022-09-27 11:07:34.772 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 6.6016ms
+2022-09-27 11:07:34.802 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 35.8546ms
+2022-09-27 11:07:34.993 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - -
+2022-09-27 11:07:35.115 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 121.3929ms
+2022-09-27 11:16:53.400 +08:00 [INF] Now listening on: https://localhost:7208
+2022-09-27 11:16:53.422 +08:00 [INF] Now listening on: http://localhost:5208
+2022-09-27 11:16:53.426 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-27 11:16:53.427 +08:00 [INF] Hosting environment: Development
+2022-09-27 11:16:53.428 +08:00 [INF] Content root path: E:\StudyCode\AbpDemo\MyselfDemo\WebApiConsumeStaticClient\WebApiConsumeStaticClient\
+2022-09-27 11:16:54.514 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/index.html - -
+2022-09-27 11:16:54.935 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/index.html - - - 200 - text/html;charset=utf-8 425.3896ms
+2022-09-27 11:16:54.945 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 11:16:54.947 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 11:16:54.951 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 5.6046ms
+2022-09-27 11:16:54.968 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 20.5043ms
+2022-09-27 11:16:55.054 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - -
+2022-09-27 11:16:55.126 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 72.0661ms
+2022-09-27 11:19:23.326 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/con - -
+2022-09-27 11:19:23.547 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/con - - - 200 - text/html 221.0086ms
+2022-09-27 11:19:23.550 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 11:19:23.551 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 11:19:23.552 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 2.0804ms
+2022-09-27 11:19:23.555 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/favicon.ico - -
+2022-09-27 11:19:23.557 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/favicon.ico - - - 404 0 - 2.0626ms
+2022-09-27 11:19:23.560 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.0859ms
+2022-09-27 11:19:23.926 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 11:19:23.928 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 1.7974ms
+2022-09-27 11:19:23.952 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7208/ls - -
+2022-09-27 11:19:36.218 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/WeatherForecast - -
+2022-09-27 11:19:36.225 +08:00 [INF] Executing endpoint 'WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog)'
+2022-09-27 11:19:36.242 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[WebApiBrowserLog.WeatherForecast]] Get() on controller WebApiBrowserLog.Controllers.WeatherForecastController (WebApiBrowserLog).
+2022-09-27 11:19:36.319 +08:00 [INF] Executing action method WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog) - Validation state: "Valid"
+2022-09-27 11:19:36.327 +08:00 [INF] 记录信息
+2022-09-27 11:19:36.333 +08:00 [INF] Executed action method WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2.9707ms.
+2022-09-27 11:19:36.343 +08:00 [INF] Executing ObjectResult, writing value of type 'WebApiBrowserLog.WeatherForecast[]'.
+2022-09-27 11:19:36.361 +08:00 [INF] Executed action WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog) in 101.6858ms
+2022-09-27 11:19:36.366 +08:00 [INF] Executed endpoint 'WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog)'
+2022-09-27 11:19:36.371 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/WeatherForecast - - - 200 - application/json;+charset=utf-8 153.5009ms
+2022-09-27 15:13:08.045 +08:00 [INF] Now listening on: https://localhost:7208
+2022-09-27 15:13:08.250 +08:00 [INF] Now listening on: http://localhost:5208
+2022-09-27 15:13:08.254 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-27 15:13:08.256 +08:00 [INF] Hosting environment: Development
+2022-09-27 15:13:08.257 +08:00 [INF] Content root path: E:\StudyCode\AbpDemo\MyselfDemo\WebApiConsumeStaticClient\WebApiConsumeStaticClient\
+2022-09-27 15:13:09.039 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger - -
+2022-09-27 15:13:09.266 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger - - - 301 0 - 231.9058ms
+2022-09-27 15:13:09.268 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/index.html - -
+2022-09-27 15:13:09.543 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/index.html - - - 200 - text/html;charset=utf-8 275.2122ms
+2022-09-27 15:13:09.551 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/swagger-ui-bundle.js - -
+2022-09-27 15:13:09.552 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 15:13:09.551 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 15:13:09.551 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/swagger-ui-standalone-preset.js - -
+2022-09-27 15:13:09.551 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/swagger-ui.css - -
+2022-09-27 15:13:09.569 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 17.5053ms
+2022-09-27 15:13:09.603 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-09-27 15:13:09.603 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-09-27 15:13:09.619 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/swagger-ui.css - - - 200 143632 text/css 68.3240ms
+2022-09-27 15:13:09.621 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 70.3588ms
+2022-09-27 15:13:09.630 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-09-27 15:13:09.633 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 82.4559ms
+2022-09-27 15:13:09.641 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 88.7087ms
+2022-09-27 15:13:09.840 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - -
+2022-09-27 15:13:09.967 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 126.4193ms
+2022-09-27 15:13:14.642 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/con - -
+2022-09-27 15:13:14.691 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/con - - - 200 - text/html 49.2962ms
+2022-09-27 15:13:14.697 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 15:13:14.697 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 15:13:14.700 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 3.1713ms
+2022-09-27 15:13:14.716 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 18.9860ms
+2022-09-27 15:13:14.940 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 15:13:14.943 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 3.0490ms
+2022-09-27 15:13:14.961 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7208/ls - -
+2022-09-27 15:13:15.130 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/favicon.ico - -
+2022-09-27 15:13:15.133 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/favicon.ico - - - 404 0 - 2.7389ms
+2022-09-27 15:13:24.985 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/WeatherForecast - -
+2022-09-27 15:13:24.994 +08:00 [INF] Executing endpoint 'WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog)'
+2022-09-27 15:13:25.018 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[WebApiBrowserLog.WeatherForecast]] Get() on controller WebApiBrowserLog.Controllers.WeatherForecastController (WebApiBrowserLog).
+2022-09-27 15:13:25.114 +08:00 [INF] Executing action method WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog) - Validation state: "Valid"
+2022-09-27 15:13:25.121 +08:00 [INF] 记录信息
+2022-09-27 15:13:25.127 +08:00 [INF] Executed action method WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4.2314ms.
+2022-09-27 15:13:25.134 +08:00 [INF] Executing ObjectResult, writing value of type 'WebApiBrowserLog.WeatherForecast[]'.
+2022-09-27 15:13:25.147 +08:00 [INF] Executed action WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog) in 120.6252ms
+2022-09-27 15:13:25.150 +08:00 [INF] Executed endpoint 'WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog)'
+2022-09-27 15:13:25.153 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/WeatherForecast - - - 200 - application/json;+charset=utf-8 168.0883ms
+2022-09-27 15:24:15.678 +08:00 [INF] Now listening on: https://localhost:7208
+2022-09-27 15:24:15.937 +08:00 [INF] Now listening on: http://localhost:5208
+2022-09-27 15:24:15.980 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-27 15:24:15.982 +08:00 [INF] Hosting environment: Development
+2022-09-27 15:24:15.984 +08:00 [INF] Content root path: E:\StudyCode\AbpDemo\MyselfDemo\WebApiConsumeStaticClient\WebApiConsumeStaticClient\
+2022-09-27 15:24:42.729 +08:00 [INF] Now listening on: https://localhost:7208
+2022-09-27 15:24:43.037 +08:00 [INF] Now listening on: http://localhost:5208
+2022-09-27 15:24:43.044 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-27 15:24:43.046 +08:00 [INF] Hosting environment: Development
+2022-09-27 15:24:43.047 +08:00 [INF] Content root path: E:\StudyCode\AbpDemo\MyselfDemo\WebApiConsumeStaticClient\WebApiConsumeStaticClient\
+2022-09-27 15:24:43.598 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/index.html - -
+2022-09-27 15:24:44.233 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/index.html - - - 200 - text/html;charset=utf-8 636.9604ms
+2022-09-27 15:24:44.233 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 15:24:44.233 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 15:24:44.250 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 16.9134ms
+2022-09-27 15:24:44.259 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.7748ms
+2022-09-27 15:24:44.505 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - -
+2022-09-27 15:24:44.527 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET WeatherForecast" for actions - WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog),WebApiBrowserLog.Controllers.WeatherForecastController.GetString (WebApiBrowserLog). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-09-27 15:24:44.587 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 82.3538ms
+2022-09-27 15:25:20.102 +08:00 [INF] Now listening on: https://localhost:7208
+2022-09-27 15:25:20.310 +08:00 [INF] Now listening on: http://localhost:5208
+2022-09-27 15:25:20.315 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-27 15:25:20.316 +08:00 [INF] Hosting environment: Development
+2022-09-27 15:25:20.317 +08:00 [INF] Content root path: E:\StudyCode\AbpDemo\MyselfDemo\WebApiConsumeStaticClient\WebApiConsumeStaticClient\
+2022-09-27 15:25:21.175 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/index.html - -
+2022-09-27 15:25:21.540 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/index.html - - - 200 - text/html;charset=utf-8 371.0735ms
+2022-09-27 15:25:21.548 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 15:25:21.548 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 15:25:21.561 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 12.4547ms
+2022-09-27 15:25:21.575 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.8816ms
+2022-09-27 15:25:21.683 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - -
+2022-09-27 15:25:21.701 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET WeatherForecast" for actions - WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog),WebApiBrowserLog.Controllers.WeatherForecastController.GetString (WebApiBrowserLog). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-09-27 15:25:21.759 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 75.7243ms
+2022-09-27 15:26:10.146 +08:00 [INF] Now listening on: https://localhost:7208
+2022-09-27 15:26:10.402 +08:00 [INF] Now listening on: http://localhost:5208
+2022-09-27 15:26:10.408 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-27 15:26:10.409 +08:00 [INF] Hosting environment: Development
+2022-09-27 15:26:10.411 +08:00 [INF] Content root path: E:\StudyCode\AbpDemo\MyselfDemo\WebApiConsumeStaticClient\WebApiConsumeStaticClient\
+2022-09-27 15:26:10.738 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/index.html - -
+2022-09-27 15:26:11.276 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/index.html - - - 200 - text/html;charset=utf-8 544.4387ms
+2022-09-27 15:26:11.286 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 15:26:11.286 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 15:26:11.290 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 4.6053ms
+2022-09-27 15:26:11.312 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.1823ms
+2022-09-27 15:26:11.419 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - -
+2022-09-27 15:26:11.453 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET WeatherForecast" for actions - WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog),WebApiBrowserLog.Controllers.WeatherForecastController.GetString (WebApiBrowserLog). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-09-27 15:26:11.522 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 103.2070ms
+2022-09-27 15:26:43.507 +08:00 [INF] Now listening on: https://localhost:7208
+2022-09-27 15:26:43.810 +08:00 [INF] Now listening on: http://localhost:5208
+2022-09-27 15:26:43.819 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-27 15:26:43.821 +08:00 [INF] Hosting environment: Development
+2022-09-27 15:26:43.823 +08:00 [INF] Content root path: E:\StudyCode\AbpDemo\MyselfDemo\WebApiConsumeStaticClient\WebApiConsumeStaticClient\
+2022-09-27 15:26:44.374 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/index.html - -
+2022-09-27 15:26:44.938 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/index.html - - - 200 - text/html;charset=utf-8 568.4882ms
+2022-09-27 15:26:44.954 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 15:26:44.954 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 15:26:44.963 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 8.6131ms
+2022-09-27 15:26:44.989 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 34.7256ms
+2022-09-27 15:26:45.097 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - -
+2022-09-27 15:26:45.115 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET WeatherForecast" for actions - WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog),WebApiBrowserLog.Controllers.WeatherForecastController.GetString (WebApiBrowserLog). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-09-27 15:26:45.161 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 64.2907ms
+2022-09-27 15:27:49.227 +08:00 [INF] Now listening on: https://localhost:7208
+2022-09-27 15:27:49.437 +08:00 [INF] Now listening on: http://localhost:5208
+2022-09-27 15:27:49.441 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-27 15:27:49.443 +08:00 [INF] Hosting environment: Development
+2022-09-27 15:27:49.445 +08:00 [INF] Content root path: E:\StudyCode\AbpDemo\MyselfDemo\WebApiConsumeStaticClient\WebApiConsumeStaticClient\
+2022-09-27 15:27:49.926 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/index.html - -
+2022-09-27 15:27:50.433 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 15:27:50.433 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 15:27:50.434 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/index.html - - - 200 - text/html;charset=utf-8 513.6222ms
+2022-09-27 15:27:50.440 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 6.6366ms
+2022-09-27 15:27:50.470 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 36.2457ms
+2022-09-27 15:27:50.584 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - -
+2022-09-27 15:27:50.605 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET WeatherForecast" for actions - WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog),WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-09-27 15:27:50.662 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 77.8023ms
+2022-09-27 15:28:53.726 +08:00 [INF] Now listening on: https://localhost:7208
+2022-09-27 15:28:54.011 +08:00 [INF] Now listening on: http://localhost:5208
+2022-09-27 15:28:54.018 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-27 15:28:54.020 +08:00 [INF] Hosting environment: Development
+2022-09-27 15:28:54.021 +08:00 [INF] Content root path: E:\StudyCode\AbpDemo\MyselfDemo\WebApiConsumeStaticClient\WebApiConsumeStaticClient\
+2022-09-27 15:28:54.436 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/index.html - -
+2022-09-27 15:28:54.878 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 15:28:54.879 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 15:28:54.879 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/index.html - - - 200 - text/html;charset=utf-8 448.9094ms
+2022-09-27 15:28:54.887 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 7.8971ms
+2022-09-27 15:28:54.940 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 61.4362ms
+2022-09-27 15:28:55.044 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - -
+2022-09-27 15:28:55.067 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET WeatherForecast" for actions - WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog),WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-09-27 15:28:55.111 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 66.7704ms
+2022-09-27 15:29:11.059 +08:00 [INF] Now listening on: https://localhost:7208
+2022-09-27 15:29:11.267 +08:00 [INF] Now listening on: http://localhost:5208
+2022-09-27 15:29:11.272 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-27 15:29:11.273 +08:00 [INF] Hosting environment: Development
+2022-09-27 15:29:11.275 +08:00 [INF] Content root path: E:\StudyCode\AbpDemo\MyselfDemo\WebApiConsumeStaticClient\WebApiConsumeStaticClient\
+2022-09-27 15:29:12.135 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/index.html - -
+2022-09-27 15:29:12.579 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/index.html - - - 200 - text/html;charset=utf-8 447.6019ms
+2022-09-27 15:29:12.583 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 15:29:12.583 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 15:29:12.588 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 5.3745ms
+2022-09-27 15:29:12.607 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 23.8893ms
+2022-09-27 15:29:12.698 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - -
+2022-09-27 15:29:12.775 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 76.6543ms
+2022-09-27 15:31:05.806 +08:00 [INF] Now listening on: https://localhost:7208
+2022-09-27 15:31:06.017 +08:00 [INF] Now listening on: http://localhost:5208
+2022-09-27 15:31:06.022 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-27 15:31:06.024 +08:00 [INF] Hosting environment: Development
+2022-09-27 15:31:06.025 +08:00 [INF] Content root path: E:\StudyCode\AbpDemo\MyselfDemo\WebApiConsumeStaticClient\WebApiConsumeStaticClient\
+2022-09-27 15:31:06.917 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/index.html - -
+2022-09-27 15:31:07.248 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/index.html - - - 200 - text/html;charset=utf-8 337.6833ms
+2022-09-27 15:31:07.255 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 15:31:07.255 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 15:31:07.259 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 4.1661ms
+2022-09-27 15:31:07.277 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 21.5045ms
+2022-09-27 15:31:07.347 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - -
+2022-09-27 15:31:07.366 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET WeatherForecast" for actions - WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog),WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-09-27 15:31:07.411 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 64.5779ms
+2022-09-27 15:31:45.115 +08:00 [INF] Now listening on: https://localhost:7208
+2022-09-27 15:31:45.306 +08:00 [INF] Now listening on: http://localhost:5208
+2022-09-27 15:31:45.310 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-27 15:31:45.311 +08:00 [INF] Hosting environment: Development
+2022-09-27 15:31:45.312 +08:00 [INF] Content root path: E:\StudyCode\AbpDemo\MyselfDemo\WebApiConsumeStaticClient\WebApiConsumeStaticClient\
+2022-09-27 15:31:46.226 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/index.html - -
+2022-09-27 15:31:46.671 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/index.html - - - 200 - text/html;charset=utf-8 448.1651ms
+2022-09-27 15:31:46.674 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 15:31:46.674 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 15:31:46.679 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 4.4729ms
+2022-09-27 15:31:46.698 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.3995ms
+2022-09-27 15:31:46.774 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - -
+2022-09-27 15:31:46.790 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET WeatherForecast" for actions - WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog),WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-09-27 15:31:46.837 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 62.5476ms
+2022-09-27 15:34:41.009 +08:00 [INF] Now listening on: https://localhost:7208
+2022-09-27 15:34:41.211 +08:00 [INF] Now listening on: http://localhost:5208
+2022-09-27 15:34:41.217 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-27 15:34:41.219 +08:00 [INF] Hosting environment: Development
+2022-09-27 15:34:41.221 +08:00 [INF] Content root path: E:\StudyCode\AbpDemo\MyselfDemo\WebApiConsumeStaticClient\WebApiConsumeStaticClient\
+2022-09-27 15:34:41.963 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/index.html - -
+2022-09-27 15:34:42.322 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/index.html - - - 200 - text/html;charset=utf-8 366.3976ms
+2022-09-27 15:34:42.334 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 15:34:42.334 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 15:34:42.353 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 18.6350ms
+2022-09-27 15:34:42.362 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.5127ms
+2022-09-27 15:34:42.432 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - -
+2022-09-27 15:34:42.448 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET WeatherForecast" for actions - WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog),WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-09-27 15:34:42.492 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 59.5653ms
+2022-09-27 15:35:13.113 +08:00 [INF] Now listening on: https://localhost:7208
+2022-09-27 15:35:13.354 +08:00 [INF] Now listening on: http://localhost:5208
+2022-09-27 15:35:13.358 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-27 15:35:13.360 +08:00 [INF] Hosting environment: Development
+2022-09-27 15:35:13.361 +08:00 [INF] Content root path: E:\StudyCode\AbpDemo\MyselfDemo\WebApiConsumeStaticClient\WebApiConsumeStaticClient\
+2022-09-27 15:35:14.041 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/index.html - -
+2022-09-27 15:35:14.500 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 15:35:14.500 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 15:35:14.501 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/index.html - - - 200 - text/html;charset=utf-8 461.1206ms
+2022-09-27 15:35:14.505 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 4.7001ms
+2022-09-27 15:35:14.525 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.6834ms
+2022-09-27 15:35:14.632 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - -
+2022-09-27 15:35:14.706 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 73.6261ms
+2022-09-27 15:35:25.712 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/con - -
+2022-09-27 15:35:25.756 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/con - - - 200 - text/html 45.0330ms
+2022-09-27 15:35:25.761 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 15:35:25.761 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 15:35:25.763 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 1.8513ms
+2022-09-27 15:35:25.777 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 15.5604ms
+2022-09-27 15:35:26.397 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 15:35:26.400 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 2.7593ms
+2022-09-27 15:35:26.428 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7208/ls - -
+2022-09-27 15:35:28.597 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/TestError - -
+2022-09-27 15:35:28.603 +08:00 [INF] Executing endpoint 'WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog)'
+2022-09-27 15:35:28.614 +08:00 [INF] Route matched with {action = "TestError", controller = "WeatherForecast"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TestError() on controller WebApiBrowserLog.Controllers.WeatherForecastController (WebApiBrowserLog).
+2022-09-27 15:35:28.684 +08:00 [INF] Executing action method WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog) - Validation state: "Valid"
+2022-09-27 15:35:28.762 +08:00 [ERR] Index was outside the bounds of the array.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at WebApiBrowserLog.Controllers.WeatherForecastController.TestError() in E:\StudyCode\AbpDemo\MyselfDemo\WebApiConsumeStaticClient\WebApiConsumeStaticClient\Controllers\WeatherForecastController.cs:line 43
+2022-09-27 15:35:28.795 +08:00 [INF] Executed action method WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 101.6425ms.
+2022-09-27 15:35:28.807 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2022-09-27 15:35:28.814 +08:00 [INF] Executed action WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog) in 193.842ms
+2022-09-27 15:35:28.817 +08:00 [INF] Executed endpoint 'WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog)'
+2022-09-27 15:35:28.819 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/TestError - - - 200 0 text/plain;+charset=utf-8 221.8849ms
+2022-09-27 15:41:20.959 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 15:41:20.984 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 24.5405ms
+2022-09-27 15:41:20.994 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 15:41:21.041 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7208/ls - -
+2022-09-27 15:41:21.045 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 51.0965ms
+2022-09-27 15:42:10.473 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/index.html - -
+2022-09-27 15:42:10.525 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/index.html - - - 200 - text/html;charset=utf-8 51.7082ms
+2022-09-27 15:42:10.535 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 15:42:10.535 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 15:42:10.540 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 4.4703ms
+2022-09-27 15:42:10.566 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 31.0978ms
+2022-09-27 15:42:10.653 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - -
+2022-09-27 15:42:10.657 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 4.4285ms
+2022-09-27 15:42:15.947 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/con - -
+2022-09-27 15:42:15.969 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/con - - - 200 - text/html 22.2672ms
+2022-09-27 15:42:15.979 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 15:42:15.980 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 15:42:15.981 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 1.7999ms
+2022-09-27 15:42:15.994 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 14.9985ms
+2022-09-27 15:42:16.728 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 15:42:16.730 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 2.0299ms
+2022-09-27 15:42:16.737 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7208/ls - -
+2022-09-27 15:42:21.995 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/TestError - -
+2022-09-27 15:42:21.998 +08:00 [INF] Executing endpoint 'WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog)'
+2022-09-27 15:42:22.012 +08:00 [INF] Route matched with {action = "TestError", controller = "WeatherForecast"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TestError() on controller WebApiBrowserLog.Controllers.WeatherForecastController (WebApiBrowserLog).
+2022-09-27 15:42:22.040 +08:00 [INF] Executing action method WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog) - Validation state: "Valid"
+2022-09-27 15:42:22.081 +08:00 [ERR] Index was outside the bounds of the array.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at WebApiBrowserLog.Controllers.WeatherForecastController.TestError() in E:\StudyCode\AbpDemo\MyselfDemo\WebApiConsumeStaticClient\WebApiConsumeStaticClient\Controllers\WeatherForecastController.cs:line 43
+2022-09-27 15:42:22.088 +08:00 [INF] Executed action method WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 46.3962ms.
+2022-09-27 15:42:22.093 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2022-09-27 15:42:22.095 +08:00 [INF] Executed action WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog) in 79.6627ms
+2022-09-27 15:42:22.097 +08:00 [INF] Executed endpoint 'WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog)'
+2022-09-27 15:42:22.104 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/TestError - - - 200 0 text/plain;+charset=utf-8 107.8498ms
+2022-09-27 16:07:07.650 +08:00 [INF] Now listening on: https://localhost:7208
+2022-09-27 16:07:07.870 +08:00 [INF] Now listening on: http://localhost:5208
+2022-09-27 16:07:07.876 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-27 16:07:07.880 +08:00 [INF] Hosting environment: Development
+2022-09-27 16:07:07.882 +08:00 [INF] Content root path: E:\StudyCode\AbpDemo\MyselfDemo\WebApiConsumeStaticClient\WebApiConsumeStaticClient\
+2022-09-27 16:07:08.703 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/index.html - -
+2022-09-27 16:07:09.204 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/index.html - - - 200 - text/html;charset=utf-8 506.9751ms
+2022-09-27 16:07:09.205 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 16:07:09.205 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 16:07:09.212 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 7.3511ms
+2022-09-27 16:07:09.231 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.7452ms
+2022-09-27 16:07:09.320 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - -
+2022-09-27 16:07:09.390 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 69.7362ms
+2022-09-27 16:07:18.172 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/con - -
+2022-09-27 16:07:18.203 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/con - - - 200 - text/html 30.3325ms
+2022-09-27 16:07:18.208 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 16:07:18.209 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 16:07:18.212 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 3.2265ms
+2022-09-27 16:07:18.218 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.5628ms
+2022-09-27 16:07:18.223 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7208/con/browser-log-stream - -
+2022-09-27 16:07:18.236 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7208/con/browser-log-stream - - - 404 0 - 12.9406ms
+2022-09-27 16:07:27.108 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/TestError - -
+2022-09-27 16:07:27.114 +08:00 [INF] Executing endpoint 'WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog)'
+2022-09-27 16:07:27.128 +08:00 [INF] Route matched with {action = "TestError", controller = "WeatherForecast"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TestError() on controller WebApiBrowserLog.Controllers.WeatherForecastController (WebApiBrowserLog).
+2022-09-27 16:07:27.212 +08:00 [INF] Executing action method WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog) - Validation state: "Valid"
+2022-09-27 16:07:27.253 +08:00 [ERR] Index was outside the bounds of the array.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at WebApiBrowserLog.Controllers.WeatherForecastController.TestError() in E:\StudyCode\AbpDemo\MyselfDemo\WebApiConsumeStaticClient\WebApiConsumeStaticClient\Controllers\WeatherForecastController.cs:line 46
+2022-09-27 16:07:27.277 +08:00 [INF] Executed action method WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 56.753ms.
+2022-09-27 16:07:27.285 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2022-09-27 16:07:27.296 +08:00 [INF] Executed action WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog) in 158.1623ms
+2022-09-27 16:07:27.298 +08:00 [INF] Executed endpoint 'WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog)'
+2022-09-27 16:07:27.300 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/TestError - - - 200 0 text/plain;+charset=utf-8 192.2055ms
+2022-09-27 16:07:28.983 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7208/con/browser-log-stream - -
+2022-09-27 16:07:28.985 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7208/con/browser-log-stream - - - 404 0 - 1.7217ms
+2022-09-27 16:07:29.841 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/con - -
+2022-09-27 16:07:29.857 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/con - - - 200 - text/html 16.4277ms
+2022-09-27 16:07:29.863 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 16:07:29.864 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 16:07:29.866 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7208/con/browser-log-stream - -
+2022-09-27 16:07:29.869 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 4.4482ms
+2022-09-27 16:07:29.870 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7208/con/browser-log-stream - - - 404 0 - 3.9313ms
+2022-09-27 16:07:29.872 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 8.4775ms
+2022-09-27 16:07:31.984 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7208/con/browser-log-stream - -
+2022-09-27 16:07:31.986 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7208/con/browser-log-stream - - - 404 0 - 2.0557ms
+2022-09-27 16:07:32.334 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7208/con/browser-log-stream - -
+2022-09-27 16:07:32.336 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7208/con/browser-log-stream - - - 404 0 - 1.5893ms
+2022-09-27 16:07:32.530 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7208/con/browser-log-stream - -
+2022-09-27 16:07:32.532 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7208/con/browser-log-stream - - - 404 0 - 1.9501ms
+2022-09-27 16:07:32.992 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7208/con/browser-log-stream - -
+2022-09-27 16:07:32.995 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7208/con/browser-log-stream - - - 404 0 - 2.9991ms
+2022-09-27 16:07:51.668 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/index.html - -
+2022-09-27 16:07:51.693 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/index.html - - - 200 - text/html;charset=utf-8 24.8235ms
+2022-09-27 16:07:51.695 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 16:07:51.695 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 16:07:51.709 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 14.0596ms
+2022-09-27 16:07:51.711 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 15.6064ms
+2022-09-27 16:07:51.866 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - -
+2022-09-27 16:07:51.868 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 2.9008ms
+2022-09-27 16:07:51.873 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/favicon-32x32.png - -
+2022-09-27 16:07:51.883 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-09-27 16:07:51.886 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/favicon-32x32.png - - - 200 628 image/png 13.5855ms
+2022-09-27 16:08:01.665 +08:00 [INF] Now listening on: https://localhost:7208
+2022-09-27 16:08:02.025 +08:00 [INF] Now listening on: http://localhost:5208
+2022-09-27 16:08:02.033 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-27 16:08:02.036 +08:00 [INF] Hosting environment: Development
+2022-09-27 16:08:02.039 +08:00 [INF] Content root path: E:\StudyCode\AbpDemo\MyselfDemo\WebApiConsumeStaticClient\WebApiConsumeStaticClient\
+2022-09-27 16:08:02.464 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/index.html - -
+2022-09-27 16:08:02.988 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/index.html - - - 200 - text/html;charset=utf-8 528.8596ms
+2022-09-27 16:08:02.992 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 16:08:02.992 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 16:08:02.997 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 5.3489ms
+2022-09-27 16:08:03.016 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.0758ms
+2022-09-27 16:08:03.220 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - -
+2022-09-27 16:08:03.346 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 126.6218ms
+2022-09-27 16:08:10.082 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/con - -
+2022-09-27 16:08:10.121 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/con - - - 200 - text/html 38.8242ms
+2022-09-27 16:08:10.125 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 16:08:10.126 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 16:08:10.128 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 2.8425ms
+2022-09-27 16:08:10.137 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 11.1542ms
+2022-09-27 16:08:10.824 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 16:08:10.827 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 2.8517ms
+2022-09-27 16:08:10.846 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7208/con/browser-log-stream - -
+2022-09-27 16:08:10.860 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7208/con/browser-log-stream - - - 404 0 - 14.5555ms
+2022-09-27 16:08:15.390 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/TestError - -
+2022-09-27 16:08:15.395 +08:00 [INF] Executing endpoint 'WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog)'
+2022-09-27 16:08:15.405 +08:00 [INF] Route matched with {action = "TestError", controller = "WeatherForecast"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TestError() on controller WebApiBrowserLog.Controllers.WeatherForecastController (WebApiBrowserLog).
+2022-09-27 16:08:15.477 +08:00 [INF] Executing action method WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog) - Validation state: "Valid"
+2022-09-27 16:08:15.531 +08:00 [ERR] Index was outside the bounds of the array.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at WebApiBrowserLog.Controllers.WeatherForecastController.TestError() in E:\StudyCode\AbpDemo\MyselfDemo\WebApiConsumeStaticClient\WebApiConsumeStaticClient\Controllers\WeatherForecastController.cs:line 46
+2022-09-27 16:08:15.557 +08:00 [INF] Executed action method WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 69.8925ms.
+2022-09-27 16:08:15.569 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2022-09-27 16:08:15.577 +08:00 [INF] Executed action WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog) in 164.9401ms
+2022-09-27 16:08:15.580 +08:00 [INF] Executed endpoint 'WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog)'
+2022-09-27 16:08:15.582 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/TestError - - - 200 0 text/plain;+charset=utf-8 192.4702ms
+2022-09-27 16:08:58.081 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/con - -
+2022-09-27 16:08:58.123 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/con - - - 200 - text/html 41.7646ms
+2022-09-27 16:08:58.151 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 16:08:58.183 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7208/con/browser-log-stream - -
+2022-09-27 16:08:58.168 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 16:08:58.195 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7208/con/browser-log-stream - - - 404 0 - 11.7273ms
+2022-09-27 16:08:58.197 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 29.5437ms
+2022-09-27 16:08:58.199 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 48.2650ms
+2022-09-27 16:08:58.798 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/con - -
+2022-09-27 16:08:58.809 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/con - - - 200 - text/html 10.8889ms
+2022-09-27 16:08:58.820 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 16:08:58.822 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 16:08:58.825 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7208/con/browser-log-stream - -
+2022-09-27 16:08:58.827 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 6.0416ms
+2022-09-27 16:08:58.833 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7208/con/browser-log-stream - - - 404 0 - 8.1385ms
+2022-09-27 16:08:58.836 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 16.0492ms
+2022-09-27 16:08:58.984 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/con - -
+2022-09-27 16:08:58.996 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/con - - - 200 - text/html 12.1246ms
+2022-09-27 16:08:59.007 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 16:08:59.010 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 16:08:59.013 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 3.8491ms
+2022-09-27 16:08:59.034 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7208/con/browser-log-stream - -
+2022-09-27 16:08:59.035 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.7767ms
+2022-09-27 16:08:59.038 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7208/con/browser-log-stream - - - 404 0 - 2.9017ms
+2022-09-27 16:09:00.118 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/con - -
+2022-09-27 16:09:00.131 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/con - - - 200 - text/html 12.3602ms
+2022-09-27 16:09:00.147 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 16:09:00.147 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 16:09:00.148 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7208/con/browser-log-stream - -
+2022-09-27 16:09:00.149 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 2.6451ms
+2022-09-27 16:09:00.168 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7208/con/browser-log-stream - - - 404 0 - 19.7311ms
+2022-09-27 16:09:00.174 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.1291ms
+2022-09-27 16:09:01.639 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/con - -
+2022-09-27 16:09:01.652 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/con - - - 200 - text/html 13.7292ms
+2022-09-27 16:09:01.663 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 16:09:01.664 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 16:09:01.668 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7208/con/browser-log-stream - -
+2022-09-27 16:09:01.671 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 7.0996ms
+2022-09-27 16:09:01.682 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7208/con/browser-log-stream - - - 404 0 - 13.8967ms
+2022-09-27 16:09:01.684 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 21.3765ms
+2022-09-27 16:09:01.848 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/con - -
+2022-09-27 16:09:01.858 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/con - - - 200 - text/html 10.1285ms
+2022-09-27 16:09:01.870 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 16:09:01.871 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 16:09:01.877 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7208/con/browser-log-stream - -
+2022-09-27 16:09:01.878 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 7.7648ms
+2022-09-27 16:09:01.881 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7208/con/browser-log-stream - - - 404 0 - 4.0663ms
+2022-09-27 16:09:01.892 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 21.9743ms
+2022-09-27 16:10:02.464 +08:00 [INF] Now listening on: https://localhost:7208
+2022-09-27 16:10:02.732 +08:00 [INF] Now listening on: http://localhost:5208
+2022-09-27 16:10:02.739 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-27 16:10:02.741 +08:00 [INF] Hosting environment: Development
+2022-09-27 16:10:02.743 +08:00 [INF] Content root path: E:\StudyCode\AbpDemo\MyselfDemo\WebApiConsumeStaticClient\WebApiConsumeStaticClient\
+2022-09-27 16:10:03.616 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/index.html - -
+2022-09-27 16:10:04.092 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/index.html - - - 200 - text/html;charset=utf-8 480.7473ms
+2022-09-27 16:10:04.093 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 16:10:04.093 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 16:10:04.097 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 3.7272ms
+2022-09-27 16:10:04.115 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 21.4263ms
+2022-09-27 16:10:04.209 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - -
+2022-09-27 16:10:04.278 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 68.1465ms
+2022-09-27 16:10:12.439 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/con - -
+2022-09-27 16:10:12.484 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/con - - - 200 - text/html 44.6335ms
+2022-09-27 16:10:12.502 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 16:10:12.502 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 16:10:12.504 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 2.7314ms
+2022-09-27 16:10:12.523 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 20.9888ms
+2022-09-27 16:10:12.534 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7208/ls - -
+2022-09-27 16:11:40.515 +08:00 [INF] Now listening on: https://localhost:7208
+2022-09-27 16:11:40.814 +08:00 [INF] Now listening on: http://localhost:5208
+2022-09-27 16:11:40.821 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-27 16:11:40.824 +08:00 [INF] Hosting environment: Development
+2022-09-27 16:11:40.828 +08:00 [INF] Content root path: E:\StudyCode\AbpDemo\MyselfDemo\WebApiConsumeStaticClient\WebApiConsumeStaticClient\
+2022-09-27 16:11:41.390 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/index.html - -
+2022-09-27 16:11:41.838 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/index.html - - - 200 - text/html;charset=utf-8 453.5052ms
+2022-09-27 16:11:41.842 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 16:11:41.842 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 16:11:41.856 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 13.4266ms
+2022-09-27 16:11:41.864 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 21.5456ms
+2022-09-27 16:11:41.970 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - -
+2022-09-27 16:11:42.060 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 90.1854ms
+2022-09-27 16:11:47.081 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/con - -
+2022-09-27 16:11:47.124 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/con - - - 200 - text/html 43.0149ms
+2022-09-27 16:11:47.127 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 16:11:47.128 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 16:11:47.132 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 4.5762ms
+2022-09-27 16:11:47.144 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 17.0268ms
+2022-09-27 16:11:47.148 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7208/con/ls - -
+2022-09-27 16:11:47.161 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7208/con/ls - - - 404 0 - 12.8262ms
+2022-09-27 16:11:48.165 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/con - -
+2022-09-27 16:11:48.184 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/con - - - 200 - text/html 18.8335ms
+2022-09-27 16:11:48.188 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 16:11:48.189 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 16:11:48.194 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7208/con/ls - -
+2022-09-27 16:11:48.195 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 5.9334ms
+2022-09-27 16:11:48.197 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7208/con/ls - - - 404 0 - 2.6117ms
+2022-09-27 16:11:48.199 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 10.3352ms
+2022-09-27 16:11:49.872 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/index.html - -
+2022-09-27 16:11:49.880 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/index.html - - - 200 - text/html;charset=utf-8 8.4286ms
+2022-09-27 16:11:49.890 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 16:11:49.890 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 16:11:49.891 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 1.6931ms
+2022-09-27 16:11:49.899 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.4441ms
+2022-09-27 16:11:49.973 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - -
+2022-09-27 16:11:49.976 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.3405ms
+2022-09-27 16:11:52.927 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/con - -
+2022-09-27 16:11:52.936 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/con - - - 200 - text/html 9.8276ms
+2022-09-27 16:11:52.942 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 16:11:52.942 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 16:11:52.944 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 1.9321ms
+2022-09-27 16:11:52.946 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7208/con/ls - -
+2022-09-27 16:11:52.952 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.5121ms
+2022-09-27 16:11:52.954 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7208/con/ls - - - 404 0 - 8.3477ms
+2022-09-27 16:11:53.582 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/con - -
+2022-09-27 16:11:53.592 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/con - - - 200 - text/html 10.4796ms
+2022-09-27 16:11:53.598 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 16:11:53.599 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 16:11:53.604 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7208/con/ls - -
+2022-09-27 16:11:53.604 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 4.9850ms
+2022-09-27 16:11:53.607 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 8.7623ms
+2022-09-27 16:11:53.608 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7208/con/ls - - - 404 0 - 4.5737ms
+2022-09-27 16:11:53.770 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/con - -
+2022-09-27 16:11:53.781 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/con - - - 200 - text/html 11.0423ms
+2022-09-27 16:11:53.788 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 16:11:53.790 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 16:11:53.791 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7208/con/ls - -
+2022-09-27 16:11:53.798 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 8.3535ms
+2022-09-27 16:11:53.799 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 10.5578ms
+2022-09-27 16:11:53.801 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7208/con/ls - - - 404 0 - 9.4394ms
+2022-09-27 16:11:53.951 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/con - -
+2022-09-27 16:11:53.960 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/con - - - 200 - text/html 8.9648ms
+2022-09-27 16:11:53.964 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 16:11:53.966 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 16:11:53.974 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 8.6104ms
+2022-09-27 16:11:53.975 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7208/con/ls - -
+2022-09-27 16:11:53.978 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 13.4505ms
+2022-09-27 16:11:53.984 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7208/con/ls - - - 404 0 - 8.7077ms
+2022-09-27 16:11:59.647 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/con - -
+2022-09-27 16:11:59.655 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/con - - - 200 - text/html 8.6685ms
+2022-09-27 16:11:59.664 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 16:11:59.666 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 16:11:59.669 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7208/con/ls - -
+2022-09-27 16:11:59.670 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 4.2909ms
+2022-09-27 16:11:59.673 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 8.6838ms
+2022-09-27 16:11:59.675 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7208/con/ls - - - 404 0 - 5.3656ms
+2022-09-27 16:12:09.631 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/con - -
+2022-09-27 16:12:09.645 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/con - - - 200 - text/html 13.3323ms
+2022-09-27 16:12:09.660 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 16:12:09.665 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 16:12:09.670 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 4.3979ms
+2022-09-27 16:12:09.674 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7208/con/ls - -
+2022-09-27 16:12:09.675 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 15.5547ms
+2022-09-27 16:12:09.676 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7208/con/ls - - - 404 0 - 1.6836ms
+2022-09-27 16:14:29.140 +08:00 [INF] Now listening on: https://localhost:7208
+2022-09-27 16:14:29.459 +08:00 [INF] Now listening on: http://localhost:5208
+2022-09-27 16:14:29.472 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-27 16:14:29.475 +08:00 [INF] Hosting environment: Development
+2022-09-27 16:14:29.478 +08:00 [INF] Content root path: E:\StudyCode\AbpDemo\MyselfDemo\WebApiConsumeStaticClient\WebApiConsumeStaticClient\
+2022-09-27 16:14:30.366 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/index.html - -
+2022-09-27 16:14:30.934 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/index.html - - - 200 - text/html;charset=utf-8 572.3473ms
+2022-09-27 16:14:30.983 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 16:14:30.983 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 16:14:30.995 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 12.0299ms
+2022-09-27 16:14:31.041 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 59.0210ms
+2022-09-27 16:14:31.332 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - -
+2022-09-27 16:14:31.489 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 157.5655ms
+2022-09-27 16:14:36.856 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/con - -
+2022-09-27 16:14:36.897 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/con - - - 200 - text/html 40.7387ms
+2022-09-27 16:14:36.901 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 16:14:36.901 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 16:14:36.902 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 1.8463ms
+2022-09-27 16:14:36.914 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 13.2563ms
+2022-09-27 16:14:37.705 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 16:14:37.707 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 2.3268ms
+2022-09-27 16:14:37.736 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7208/ls - -
+2022-09-27 16:19:32.322 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/index.html - -
+2022-09-27 16:19:32.382 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/index.html - - - 200 - text/html;charset=utf-8 59.0987ms
+2022-09-27 16:19:32.412 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 16:19:32.412 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 16:19:32.414 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 1.7625ms
+2022-09-27 16:19:32.436 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 23.8523ms
+2022-09-27 16:19:32.570 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - -
+2022-09-27 16:19:32.573 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.3590ms
+2022-09-27 16:21:32.309 +08:00 [INF] Now listening on: https://localhost:7208
+2022-09-27 16:21:32.588 +08:00 [INF] Now listening on: http://localhost:5208
+2022-09-27 16:21:32.605 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-27 16:21:32.608 +08:00 [INF] Hosting environment: Development
+2022-09-27 16:21:32.612 +08:00 [INF] Content root path: E:\StudyCode\AbpDemo\MyselfDemo\WebApiConsumeStaticClient\WebApiConsumeStaticClient\
+2022-09-27 16:21:33.395 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/index.html - -
+2022-09-27 16:21:33.906 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/index.html - - - 200 - text/html;charset=utf-8 518.0384ms
+2022-09-27 16:21:33.911 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 16:21:33.915 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 16:21:33.917 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 5.9827ms
+2022-09-27 16:21:33.943 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.5596ms
+2022-09-27 16:21:34.038 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - -
+2022-09-27 16:21:34.110 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 71.8515ms
+2022-09-27 16:21:38.687 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/con - -
+2022-09-27 16:21:38.730 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/con - - - 200 - text/html 43.8933ms
+2022-09-27 16:21:38.741 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 16:21:38.741 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 16:21:38.746 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 5.3529ms
+2022-09-27 16:21:38.756 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 14.8979ms
+2022-09-27 16:21:39.476 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 16:21:39.478 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 2.9195ms
+2022-09-27 16:21:39.497 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7208/con/ls - -
+2022-09-27 16:21:39.512 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7208/con/ls - - - 404 0 - 15.6033ms
+2022-09-27 16:22:17.845 +08:00 [INF] Now listening on: https://localhost:7208
+2022-09-27 16:22:18.061 +08:00 [INF] Now listening on: http://localhost:5208
+2022-09-27 16:22:18.065 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-27 16:22:18.067 +08:00 [INF] Hosting environment: Development
+2022-09-27 16:22:18.068 +08:00 [INF] Content root path: E:\StudyCode\AbpDemo\MyselfDemo\WebApiConsumeStaticClient\WebApiConsumeStaticClient\
+2022-09-27 16:22:18.816 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/index.html - -
+2022-09-27 16:22:19.276 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 16:22:19.276 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 16:22:19.276 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/index.html - - - 200 - text/html;charset=utf-8 464.3981ms
+2022-09-27 16:22:19.284 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 6.7581ms
+2022-09-27 16:22:19.311 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 34.4251ms
+2022-09-27 16:22:19.420 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - -
+2022-09-27 16:22:19.496 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 75.5635ms
+2022-09-27 16:22:25.714 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/con - -
+2022-09-27 16:22:25.750 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/con - - - 200 - text/html 36.2385ms
+2022-09-27 16:22:25.762 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 16:22:25.778 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 16:22:25.783 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 13.4544ms
+2022-09-27 16:22:25.799 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 36.9701ms
+2022-09-27 16:22:25.802 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7208/ls - -
+2022-09-27 16:22:30.920 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/TestError - -
+2022-09-27 16:22:30.927 +08:00 [INF] Executing endpoint 'WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog)'
+2022-09-27 16:22:30.937 +08:00 [INF] Route matched with {action = "TestError", controller = "WeatherForecast"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TestError() on controller WebApiBrowserLog.Controllers.WeatherForecastController (WebApiBrowserLog).
+2022-09-27 16:22:31.016 +08:00 [INF] Executing action method WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog) - Validation state: "Valid"
+2022-09-27 16:22:31.058 +08:00 [ERR] Index was outside the bounds of the array.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at WebApiBrowserLog.Controllers.WeatherForecastController.TestError() in E:\StudyCode\AbpDemo\MyselfDemo\WebApiConsumeStaticClient\WebApiConsumeStaticClient\Controllers\WeatherForecastController.cs:line 46
+2022-09-27 16:22:31.084 +08:00 [INF] Executed action method WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 60.1951ms.
+2022-09-27 16:22:31.093 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2022-09-27 16:22:31.100 +08:00 [INF] Executed action WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog) in 155.5279ms
+2022-09-27 16:22:31.104 +08:00 [INF] Executed endpoint 'WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog)'
+2022-09-27 16:22:31.109 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/TestError - - - 200 0 text/plain;+charset=utf-8 188.2279ms
+2022-09-27 16:23:13.918 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7208/ls - - - 101 - - 48116.5369ms
+2022-09-27 16:23:14.748 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7208/ls - -
+2022-09-27 16:23:15.201 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7208/ls - - - 101 - - 453.0596ms
+2022-09-27 16:23:34.765 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7208/ls - -
+2022-09-27 16:23:43.825 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/GetWeatherForecast - -
+2022-09-27 16:23:43.837 +08:00 [INF] Executing endpoint 'WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog)'
+2022-09-27 16:23:43.847 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[WebApiBrowserLog.WeatherForecast]] Get() on controller WebApiBrowserLog.Controllers.WeatherForecastController (WebApiBrowserLog).
+2022-09-27 16:23:43.870 +08:00 [INF] Executing action method WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog) - Validation state: "Valid"
+2022-09-27 16:23:43.874 +08:00 [INF] 记录信息
+2022-09-27 16:23:43.881 +08:00 [INF] Executed action method WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 8.0031ms.
+2022-09-27 16:23:43.888 +08:00 [INF] Executing ObjectResult, writing value of type 'WebApiBrowserLog.WeatherForecast[]'.
+2022-09-27 16:23:43.895 +08:00 [INF] Executed action WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog) in 43.561ms
+2022-09-27 16:23:43.910 +08:00 [INF] Executed endpoint 'WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog)'
+2022-09-27 16:23:43.912 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/GetWeatherForecast - - - 200 - application/json;+charset=utf-8 87.4670ms
+2022-09-27 16:23:51.151 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/TestError - -
+2022-09-27 16:23:51.154 +08:00 [INF] Executing endpoint 'WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog)'
+2022-09-27 16:23:51.161 +08:00 [INF] Route matched with {action = "TestError", controller = "WeatherForecast"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TestError() on controller WebApiBrowserLog.Controllers.WeatherForecastController (WebApiBrowserLog).
+2022-09-27 16:23:51.181 +08:00 [INF] Executing action method WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog) - Validation state: "Valid"
+2022-09-27 16:23:51.221 +08:00 [ERR] Index was outside the bounds of the array.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at WebApiBrowserLog.Controllers.WeatherForecastController.TestError() in E:\StudyCode\AbpDemo\MyselfDemo\WebApiConsumeStaticClient\WebApiConsumeStaticClient\Controllers\WeatherForecastController.cs:line 46
+2022-09-27 16:23:51.226 +08:00 [INF] Executed action method WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 41.2331ms.
+2022-09-27 16:23:51.228 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2022-09-27 16:23:51.234 +08:00 [INF] Executed action WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog) in 69.3159ms
+2022-09-27 16:23:51.235 +08:00 [INF] Executed endpoint 'WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog)'
+2022-09-27 16:23:51.237 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/TestError - - - 200 0 text/plain;+charset=utf-8 85.5736ms
+2022-09-27 16:24:23.360 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7208/ls - - - 101 - - 48594.6237ms
+2022-09-27 16:24:23.825 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7208/ls - -
+2022-09-27 16:24:24.376 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7208/ls - - - 101 - - 551.7362ms
+2022-09-27 16:24:25.383 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7208/ls - -
+2022-09-27 16:24:29.001 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7208/ls - - - 101 - - 3617.3920ms
+2022-09-27 16:31:46.342 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/con - -
+2022-09-27 16:31:46.392 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/con - - - 200 - text/html 50.5587ms
+2022-09-27 16:31:46.396 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 16:31:46.396 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 16:31:46.398 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 3.0095ms
+2022-09-27 16:31:46.416 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7208/ls - -
+2022-09-27 16:31:46.431 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 34.6074ms
+2022-09-27 16:31:51.556 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/GetWeatherForecast - -
+2022-09-27 16:31:51.558 +08:00 [INF] Executing endpoint 'WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog)'
+2022-09-27 16:31:51.562 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[WebApiBrowserLog.WeatherForecast]] Get() on controller WebApiBrowserLog.Controllers.WeatherForecastController (WebApiBrowserLog).
+2022-09-27 16:31:51.585 +08:00 [INF] Executing action method WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog) - Validation state: "Valid"
+2022-09-27 16:31:51.588 +08:00 [INF] 记录信息
+2022-09-27 16:31:51.589 +08:00 [INF] Executed action method WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.412ms.
+2022-09-27 16:31:51.598 +08:00 [INF] Executing ObjectResult, writing value of type 'WebApiBrowserLog.WeatherForecast[]'.
+2022-09-27 16:31:51.605 +08:00 [INF] Executed action WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog) in 36.9065ms
+2022-09-27 16:31:51.608 +08:00 [INF] Executed endpoint 'WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog)'
+2022-09-27 16:31:51.613 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/GetWeatherForecast - - - 200 - application/json;+charset=utf-8 57.0581ms
+2022-09-27 16:32:00.682 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/TestError - -
+2022-09-27 16:32:00.685 +08:00 [INF] Executing endpoint 'WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog)'
+2022-09-27 16:32:00.689 +08:00 [INF] Route matched with {action = "TestError", controller = "WeatherForecast"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TestError() on controller WebApiBrowserLog.Controllers.WeatherForecastController (WebApiBrowserLog).
+2022-09-27 16:32:00.718 +08:00 [INF] Executing action method WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog) - Validation state: "Valid"
+2022-09-27 16:32:00.760 +08:00 [ERR] Index was outside the bounds of the array.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at WebApiBrowserLog.Controllers.WeatherForecastController.TestError() in E:\StudyCode\AbpDemo\MyselfDemo\WebApiConsumeStaticClient\WebApiConsumeStaticClient\Controllers\WeatherForecastController.cs:line 46
+2022-09-27 16:32:00.766 +08:00 [INF] Executed action method WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 44.9309ms.
+2022-09-27 16:32:00.769 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2022-09-27 16:32:00.770 +08:00 [INF] Executed action WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog) in 75.0639ms
+2022-09-27 16:32:00.772 +08:00 [INF] Executed endpoint 'WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog)'
+2022-09-27 16:32:00.775 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/TestError - - - 200 0 text/plain;+charset=utf-8 92.6785ms
+2022-09-27 16:35:05.703 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7208/ls - - - 101 - - 199286.8807ms
+2022-09-27 16:39:35.121 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7208/ls - -
+2022-09-27 16:39:46.948 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7208/ls - - - 101 - - 11826.8049ms
+2022-09-27 16:46:03.653 +08:00 [INF] Now listening on: https://localhost:7208
+2022-09-27 16:46:03.895 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7208/ls - -
+2022-09-27 16:46:03.928 +08:00 [INF] Now listening on: http://localhost:5208
+2022-09-27 16:46:03.942 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-27 16:46:03.944 +08:00 [INF] Hosting environment: Development
+2022-09-27 16:46:03.946 +08:00 [INF] Content root path: E:\StudyCode\AbpDemo\MyselfDemo\WebApiConsumeStaticClient\WebApiConsumeStaticClient\
+2022-09-27 16:46:34.803 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/GetWeatherForecast - -
+2022-09-27 16:46:34.810 +08:00 [INF] Executing endpoint 'WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog)'
+2022-09-27 16:46:34.826 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[WebApiBrowserLog.WeatherForecast]] Get() on controller WebApiBrowserLog.Controllers.WeatherForecastController (WebApiBrowserLog).
+2022-09-27 16:46:34.893 +08:00 [INF] Executing action method WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog) - Validation state: "Valid"
+2022-09-27 16:46:34.899 +08:00 [INF] [token:789]
+2022-09-27 16:46:34.900 +08:00 [INF] 记录信息
+2022-09-27 16:46:34.906 +08:00 [INF] Executed action method WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5.0275ms.
+2022-09-27 16:46:34.915 +08:00 [INF] Executing ObjectResult, writing value of type 'WebApiBrowserLog.WeatherForecast[]'.
+2022-09-27 16:46:34.949 +08:00 [INF] Executed action WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog) in 116.0178ms
+2022-09-27 16:46:34.951 +08:00 [INF] Executed endpoint 'WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog)'
+2022-09-27 16:46:34.956 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/GetWeatherForecast - - - 200 - application/json;+charset=utf-8 152.7916ms
+2022-09-27 16:51:16.605 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/GetWeatherForecast - -
+2022-09-27 16:51:16.622 +08:00 [INF] Executing endpoint 'WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog)'
+2022-09-27 16:51:16.623 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[WebApiBrowserLog.WeatherForecast]] Get() on controller WebApiBrowserLog.Controllers.WeatherForecastController (WebApiBrowserLog).
+2022-09-27 16:51:16.642 +08:00 [INF] Executing action method WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog) - Validation state: "Valid"
+2022-09-27 16:51:16.644 +08:00 [INF] [token:789]
+2022-09-27 16:51:16.645 +08:00 [INF] 记录信息
+2022-09-27 16:51:16.647 +08:00 [INF] Executed action method WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2.9919ms.
+2022-09-27 16:51:16.649 +08:00 [INF] Executing ObjectResult, writing value of type 'WebApiBrowserLog.WeatherForecast[]'.
+2022-09-27 16:51:16.651 +08:00 [INF] Executed action WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog) in 25.7972ms
+2022-09-27 16:51:16.653 +08:00 [INF] Executed endpoint 'WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog)'
+2022-09-27 16:51:16.655 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/GetWeatherForecast - - - 200 - application/json;+charset=utf-8 50.2960ms
+2022-09-27 16:51:24.490 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/TestError - -
+2022-09-27 16:51:24.493 +08:00 [INF] Executing endpoint 'WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog)'
+2022-09-27 16:51:24.498 +08:00 [INF] Route matched with {action = "TestError", controller = "WeatherForecast"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TestError() on controller WebApiBrowserLog.Controllers.WeatherForecastController (WebApiBrowserLog).
+2022-09-27 16:51:24.519 +08:00 [INF] Executing action method WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog) - Validation state: "Valid"
+2022-09-27 16:51:24.523 +08:00 [INF] [token:456]
+2022-09-27 16:51:24.561 +08:00 [ERR] Index was outside the bounds of the array.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at WebApiBrowserLog.Controllers.WeatherForecastController.TestError() in E:\StudyCode\AbpDemo\MyselfDemo\WebApiConsumeStaticClient\WebApiConsumeStaticClient\Controllers\WeatherForecastController.cs:line 49
+2022-09-27 16:51:24.587 +08:00 [INF] Executed action method WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 64.7391ms.
+2022-09-27 16:51:24.591 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2022-09-27 16:51:24.593 +08:00 [INF] Executed action WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog) in 92.2931ms
+2022-09-27 16:51:24.595 +08:00 [INF] Executed endpoint 'WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog)'
+2022-09-27 16:51:24.600 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/TestError - - - 200 0 text/plain;+charset=utf-8 110.3514ms
+2022-09-27 16:55:01.114 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/con - -
+2022-09-27 16:55:01.341 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7208/ls - - - 101 - - 537451.4045ms
+2022-09-27 16:55:01.401 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 16:55:01.401 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 16:55:01.402 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/con - - - 200 - text/html 288.1677ms
+2022-09-27 16:55:01.411 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 10.5604ms
+2022-09-27 16:55:01.411 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7208/ls - -
+2022-09-27 16:55:01.438 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 36.7950ms
+2022-09-27 16:55:08.920 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/GetWeatherForecast - -
+2022-09-27 16:55:08.922 +08:00 [INF] Executing endpoint 'WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog)'
+2022-09-27 16:55:08.924 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[WebApiBrowserLog.WeatherForecast]] Get() on controller WebApiBrowserLog.Controllers.WeatherForecastController (WebApiBrowserLog).
+2022-09-27 16:55:08.948 +08:00 [INF] Executing action method WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog) - Validation state: "Valid"
+2022-09-27 16:55:08.950 +08:00 [INF] [token:789]
+2022-09-27 16:55:08.951 +08:00 [INF] 记录信息
+2022-09-27 16:55:08.961 +08:00 [INF] Executed action method WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 11.0644ms.
+2022-09-27 16:55:08.967 +08:00 [INF] Executing ObjectResult, writing value of type 'WebApiBrowserLog.WeatherForecast[]'.
+2022-09-27 16:55:08.971 +08:00 [INF] Executed action WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog) in 40.6932ms
+2022-09-27 16:55:08.976 +08:00 [INF] Executed endpoint 'WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog)'
+2022-09-27 16:55:08.979 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/GetWeatherForecast - - - 200 - application/json;+charset=utf-8 58.6111ms
+2022-09-27 16:56:40.831 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/GetWeatherForecast - -
+2022-09-27 16:56:40.852 +08:00 [INF] Executing endpoint 'WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog)'
+2022-09-27 16:56:40.857 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[WebApiBrowserLog.WeatherForecast]] Get() on controller WebApiBrowserLog.Controllers.WeatherForecastController (WebApiBrowserLog).
+2022-09-27 16:56:40.884 +08:00 [INF] Executing action method WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog) - Validation state: "Valid"
+2022-09-27 16:56:40.886 +08:00 [INF] [token:789]
+2022-09-27 16:56:40.889 +08:00 [INF] 记录信息
+2022-09-27 16:56:40.897 +08:00 [INF] Executed action method WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 10.307ms.
+2022-09-27 16:56:40.909 +08:00 [INF] Executing ObjectResult, writing value of type 'WebApiBrowserLog.WeatherForecast[]'.
+2022-09-27 16:56:40.912 +08:00 [INF] Executed action WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog) in 48.7891ms
+2022-09-27 16:56:40.917 +08:00 [INF] Executed endpoint 'WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog)'
+2022-09-27 16:56:40.919 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/GetWeatherForecast - - - 200 - application/json;+charset=utf-8 88.0651ms
+2022-09-27 16:56:44.529 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/TestError - -
+2022-09-27 16:56:44.531 +08:00 [INF] Executing endpoint 'WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog)'
+2022-09-27 16:56:44.533 +08:00 [INF] Route matched with {action = "TestError", controller = "WeatherForecast"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TestError() on controller WebApiBrowserLog.Controllers.WeatherForecastController (WebApiBrowserLog).
+2022-09-27 16:56:44.553 +08:00 [INF] Executing action method WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog) - Validation state: "Valid"
+2022-09-27 16:56:44.555 +08:00 [INF] [token:456]
+2022-09-27 16:56:44.593 +08:00 [ERR] Index was outside the bounds of the array.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at WebApiBrowserLog.Controllers.WeatherForecastController.TestError() in E:\StudyCode\AbpDemo\MyselfDemo\WebApiConsumeStaticClient\WebApiConsumeStaticClient\Controllers\WeatherForecastController.cs:line 49
+2022-09-27 16:56:44.597 +08:00 [INF] Executed action method WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 42.3234ms.
+2022-09-27 16:56:44.600 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2022-09-27 16:56:44.603 +08:00 [INF] Executed action WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog) in 65.8279ms
+2022-09-27 16:56:44.605 +08:00 [INF] Executed endpoint 'WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog)'
+2022-09-27 16:56:44.607 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/TestError - - - 200 0 text/plain;+charset=utf-8 77.2544ms
+2022-09-27 16:57:11.827 +08:00 [INF] Now listening on: https://localhost:7208
+2022-09-27 16:57:12.156 +08:00 [INF] Now listening on: http://localhost:5208
+2022-09-27 16:57:12.169 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-27 16:57:12.172 +08:00 [INF] Hosting environment: Development
+2022-09-27 16:57:12.175 +08:00 [INF] Content root path: E:\StudyCode\AbpDemo\MyselfDemo\WebApiConsumeStaticClient\WebApiConsumeStaticClient\
+2022-09-27 16:57:12.714 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/index.html - -
+2022-09-27 16:57:13.157 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/index.html - - - 200 - text/html;charset=utf-8 450.2557ms
+2022-09-27 16:57:23.400 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/index.html - -
+2022-09-27 16:57:23.434 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/index.html - - - 200 - text/html;charset=utf-8 34.3240ms
+2022-09-27 16:57:23.442 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 16:57:23.442 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 16:57:23.452 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 9.6901ms
+2022-09-27 16:57:23.462 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 20.3228ms
+2022-09-27 16:57:23.607 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - -
+2022-09-27 16:57:23.687 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 80.1621ms
+2022-09-27 16:57:25.928 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/con - -
+2022-09-27 16:57:25.963 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/con - - - 200 - text/html 35.2852ms
+2022-09-27 16:57:25.968 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - -
+2022-09-27 16:57:25.968 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/_vs/browserLink - -
+2022-09-27 16:57:25.970 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 3.2223ms
+2022-09-27 16:57:25.994 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7208/ls - -
+2022-09-27 16:57:25.999 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 31.6570ms
+2022-09-27 16:57:33.002 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/GetWeatherForecast - -
+2022-09-27 16:57:33.012 +08:00 [INF] Executing endpoint 'WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog)'
+2022-09-27 16:57:33.030 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[WebApiBrowserLog.WeatherForecast]] Get() on controller WebApiBrowserLog.Controllers.WeatherForecastController (WebApiBrowserLog).
+2022-09-27 16:57:33.105 +08:00 [INF] Executing action method WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog) - Validation state: "Valid"
+2022-09-27 16:57:33.110 +08:00 [INF] [token:789]记录信息
+2022-09-27 16:57:33.116 +08:00 [INF] Executed action method WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3.2506ms.
+2022-09-27 16:57:33.124 +08:00 [INF] Executing ObjectResult, writing value of type 'WebApiBrowserLog.WeatherForecast[]'.
+2022-09-27 16:57:33.136 +08:00 [INF] Executed action WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog) in 98.2731ms
+2022-09-27 16:57:33.139 +08:00 [INF] Executed endpoint 'WebApiBrowserLog.Controllers.WeatherForecastController.Get (WebApiBrowserLog)'
+2022-09-27 16:57:33.140 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/GetWeatherForecast - - - 200 - application/json;+charset=utf-8 138.0436ms
+2022-09-27 16:57:39.730 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7208/TestError - -
+2022-09-27 16:57:39.733 +08:00 [INF] Executing endpoint 'WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog)'
+2022-09-27 16:57:39.738 +08:00 [INF] Route matched with {action = "TestError", controller = "WeatherForecast"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TestError() on controller WebApiBrowserLog.Controllers.WeatherForecastController (WebApiBrowserLog).
+2022-09-27 16:57:39.764 +08:00 [INF] Executing action method WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog) - Validation state: "Valid"
+2022-09-27 16:57:39.807 +08:00 [ERR] [token:456]Index was outside the bounds of the array.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at WebApiBrowserLog.Controllers.WeatherForecastController.TestError() in E:\StudyCode\AbpDemo\MyselfDemo\WebApiConsumeStaticClient\WebApiConsumeStaticClient\Controllers\WeatherForecastController.cs:line 49
+2022-09-27 16:57:39.834 +08:00 [INF] Executed action method WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 66.5754ms.
+2022-09-27 16:57:39.838 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2022-09-27 16:57:39.839 +08:00 [INF] Executed action WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog) in 97.8994ms
+2022-09-27 16:57:39.844 +08:00 [INF] Executed endpoint 'WebApiBrowserLog.Controllers.WeatherForecastController.TestError (WebApiBrowserLog)'
+2022-09-27 16:57:39.847 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7208/TestError - - - 200 0 text/plain;+charset=utf-8 116.2338ms

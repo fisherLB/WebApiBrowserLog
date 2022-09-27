@@ -1,0 +1,10 @@
+E:\StudyCode\AbpDemo\MyselfDemo\Lavspent.BrowserLogger\Lavspent.BrowserLogger\bin\Debug\netcoreapp3.1\Lavspent.BrowserLogger.deps.json
+E:\StudyCode\AbpDemo\MyselfDemo\Lavspent.BrowserLogger\Lavspent.BrowserLogger\bin\Debug\netcoreapp3.1\Lavspent.BrowserLogger.dll
+E:\StudyCode\AbpDemo\MyselfDemo\Lavspent.BrowserLogger\Lavspent.BrowserLogger\bin\Debug\netcoreapp3.1\Lavspent.BrowserLogger.pdb
+E:\StudyCode\AbpDemo\MyselfDemo\Lavspent.BrowserLogger\Lavspent.BrowserLogger\obj\Debug\netcoreapp3.1\Lavspent.BrowserLogger.csproj.AssemblyReference.cache
+E:\StudyCode\AbpDemo\MyselfDemo\Lavspent.BrowserLogger\Lavspent.BrowserLogger\obj\Debug\netcoreapp3.1\Lavspent.BrowserLogger.GeneratedMSBuildEditorConfig.editorconfig
+E:\StudyCode\AbpDemo\MyselfDemo\Lavspent.BrowserLogger\Lavspent.BrowserLogger\obj\Debug\netcoreapp3.1\Lavspent.BrowserLogger.AssemblyInfoInputs.cache
+E:\StudyCode\AbpDemo\MyselfDemo\Lavspent.BrowserLogger\Lavspent.BrowserLogger\obj\Debug\netcoreapp3.1\Lavspent.BrowserLogger.AssemblyInfo.cs
+E:\StudyCode\AbpDemo\MyselfDemo\Lavspent.BrowserLogger\Lavspent.BrowserLogger\obj\Debug\netcoreapp3.1\Lavspent.BrowserLogger.csproj.CoreCompileInputs.cache
+E:\StudyCode\AbpDemo\MyselfDemo\Lavspent.BrowserLogger\Lavspent.BrowserLogger\obj\Debug\netcoreapp3.1\Lavspent.BrowserLogger.dll
+E:\StudyCode\AbpDemo\MyselfDemo\Lavspent.BrowserLogger\Lavspent.BrowserLogger\obj\Debug\netcoreapp3.1\Lavspent.BrowserLogger.pdb
