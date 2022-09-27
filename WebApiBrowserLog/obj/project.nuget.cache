@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b5ZoFFxnNKwLHAEadCzgH85zb5pPQtwNnSEy73TR19DNI0jK55DUb6V+wW2jBXb9XXBIdhKORcUceGao/Xjhsg==",
+  "dgSpecHash": "ljPmXTAOGVN7c/gNiBRkwcAGoFVqspRzTDbhsvF3OEe/omZSv05KsIc++IsBhNEjVprESmEbbPo4aG6DfYUm2w==",
   "success": true,
-  "projectFilePath": "E:\\StudyCode\\AbpDemo\\MyselfDemo\\WebApiConsumeStaticClient\\WebApiConsumeStaticClient\\WebApiBrowserLog.csproj",
+  "projectFilePath": "E:\\StudyCode\\AbpDemo\\MyselfDemo\\WebApiBrowserLog\\WebApiBrowserLog\\WebApiBrowserLog.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\qmj\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.1.1\\microsoft.aspnetcore.http.abstractions.2.1.1.nupkg.sha512",
     "C:\\Users\\qmj\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.1.1\\microsoft.aspnetcore.http.features.2.1.1.nupkg.sha512",

@@ -1135,11 +1135,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\StudyCode\\AbpDemo\\MyselfDemo\\WebApiConsumeStaticClient\\WebApiConsumeStaticClient\\WebApiBrowserLog.csproj",
+      "projectUniqueName": "E:\\StudyCode\\AbpDemo\\MyselfDemo\\WebApiBrowserLog\\WebApiBrowserLog\\WebApiBrowserLog.csproj",
       "projectName": "WebApiBrowserLog",
-      "projectPath": "E:\\StudyCode\\AbpDemo\\MyselfDemo\\WebApiConsumeStaticClient\\WebApiConsumeStaticClient\\WebApiBrowserLog.csproj",
+      "projectPath": "E:\\StudyCode\\AbpDemo\\MyselfDemo\\WebApiBrowserLog\\WebApiBrowserLog\\WebApiBrowserLog.csproj",
       "packagesPath": "C:\\Users\\qmj\\.nuget\\packages\\",
-      "outputPath": "E:\\StudyCode\\AbpDemo\\MyselfDemo\\WebApiConsumeStaticClient\\WebApiConsumeStaticClient\\obj\\",
+      "outputPath": "E:\\StudyCode\\AbpDemo\\MyselfDemo\\WebApiBrowserLog\\WebApiBrowserLog\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1160,8 +1160,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\StudyCode\\AbpDemo\\MyselfDemo\\WebApiConsumeStaticClient\\Lavspent.BrowserLogger\\Lavspent.BrowserLogger.csproj": {
-              "projectPath": "E:\\StudyCode\\AbpDemo\\MyselfDemo\\WebApiConsumeStaticClient\\Lavspent.BrowserLogger\\Lavspent.BrowserLogger.csproj"
+            "E:\\StudyCode\\AbpDemo\\MyselfDemo\\WebApiBrowserLog\\Lavspent.BrowserLogger\\Lavspent.BrowserLogger.csproj": {
+              "projectPath": "E:\\StudyCode\\AbpDemo\\MyselfDemo\\WebApiBrowserLog\\Lavspent.BrowserLogger\\Lavspent.BrowserLogger.csproj"
             }
           }
         }

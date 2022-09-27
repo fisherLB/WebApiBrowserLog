@@ -2826,11 +2826,11 @@
   "project": {
     "version": "0.0.2",
     "restore": {
-      "projectUniqueName": "E:\\StudyCode\\AbpDemo\\MyselfDemo\\WebApiConsumeStaticClient\\Lavspent.BrowserLogger\\Lavspent.BrowserLogger.csproj",
+      "projectUniqueName": "E:\\StudyCode\\AbpDemo\\MyselfDemo\\WebApiBrowserLog\\Lavspent.BrowserLogger\\Lavspent.BrowserLogger.csproj",
       "projectName": "Lavspent.BrowserLogger",
-      "projectPath": "E:\\StudyCode\\AbpDemo\\MyselfDemo\\WebApiConsumeStaticClient\\Lavspent.BrowserLogger\\Lavspent.BrowserLogger.csproj",
+      "projectPath": "E:\\StudyCode\\AbpDemo\\MyselfDemo\\WebApiBrowserLog\\Lavspent.BrowserLogger\\Lavspent.BrowserLogger.csproj",
       "packagesPath": "C:\\Users\\qmj\\.nuget\\packages\\",
-      "outputPath": "E:\\StudyCode\\AbpDemo\\MyselfDemo\\WebApiConsumeStaticClient\\Lavspent.BrowserLogger\\obj\\",
+      "outputPath": "E:\\StudyCode\\AbpDemo\\MyselfDemo\\WebApiBrowserLog\\Lavspent.BrowserLogger\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

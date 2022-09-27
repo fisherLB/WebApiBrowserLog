@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiBrowserLog", "WebApiConsumeStaticClient\WebApiBrowserLog.csproj", "{4628C88E-5E5F-4D8C-9CA0-88637A99A582}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lavspent.BrowserLogger", "Lavspent.BrowserLogger\Lavspent.BrowserLogger.csproj", "{572A5E0E-5986-4521-BA87-941E9F39A5DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiBrowserLog", "WebApiBrowserLog\WebApiBrowserLog.csproj", "{608DEF36-9E0B-46A3-97DA-FDD03DE6C23B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4628C88E-5E5F-4D8C-9CA0-88637A99A582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4628C88E-5E5F-4D8C-9CA0-88637A99A582}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4628C88E-5E5F-4D8C-9CA0-88637A99A582}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4628C88E-5E5F-4D8C-9CA0-88637A99A582}.Release|Any CPU.Build.0 = Release|Any CPU
 		{572A5E0E-5986-4521-BA87-941E9F39A5DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{572A5E0E-5986-4521-BA87-941E9F39A5DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{572A5E0E-5986-4521-BA87-941E9F39A5DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{572A5E0E-5986-4521-BA87-941E9F39A5DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{608DEF36-9E0B-46A3-97DA-FDD03DE6C23B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{608DEF36-9E0B-46A3-97DA-FDD03DE6C23B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{608DEF36-9E0B-46A3-97DA-FDD03DE6C23B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{608DEF36-9E0B-46A3-97DA-FDD03DE6C23B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

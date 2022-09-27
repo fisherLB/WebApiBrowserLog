@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NSOV099Gsz/hiSPYRtOgR06wT3uHyon9QHVd3rwMUPG8xKYb3YyqYIH2LJ9H2gcozzDtX5wVJiV3abUSRquceA==",
+  "dgSpecHash": "/sGWdhFk0c9u20YeCW/Fp8FSrvXfZJ5kK0UIrl4JO/jZE4jP1JYcBu1a7y2gRUUjjQtqig98ZeT5qFpX3S9+Wg==",
   "success": true,
-  "projectFilePath": "E:\\StudyCode\\AbpDemo\\MyselfDemo\\WebApiConsumeStaticClient\\Lavspent.BrowserLogger\\Lavspent.BrowserLogger.csproj",
+  "projectFilePath": "E:\\StudyCode\\AbpDemo\\MyselfDemo\\WebApiBrowserLog\\Lavspent.BrowserLogger\\Lavspent.BrowserLogger.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\qmj\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.0.0\\microsoft.aspnetcore.hosting.abstractions.2.0.0.nupkg.sha512",
     "C:\\Users\\qmj\\.nuget\\packages\\microsoft.aspnetcore.hosting.server.abstractions\\2.0.0\\microsoft.aspnetcore.hosting.server.abstractions.2.0.0.nupkg.sha512",
