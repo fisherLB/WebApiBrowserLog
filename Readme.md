@@ -1,20 +1,20 @@
 netcore项目在浏览器输出日志，实际中的应用如下：
 
-![image-20220927170612372](C:\Users\qmj\AppData\Roaming\Typora\typora-user-images\image-20220927170612372.png)
+![image-20220927170612372](./typora-user-images/image-20220927170612372.png)
 
 在浏览器显示日志是根据https://github.com/lavspent/Lavspent.BrowserLogger为基础进行改造的。
 
 下载该项目并运行Test
 
-![image-20220927101418043](C:\Users\qmj\AppData\Roaming\Typora\typora-user-images\image-20220927101418043.png)
+![image-20220927101418043](./typora-user-images/image-20220927101418043.png)
 
 运行效果
 
-![image-20220927101517439](C:\Users\qmj\AppData\Roaming\Typora\typora-user-images\image-20220927101517439.png)
+![image-20220927101517439](./typora-user-images/image-20220927101517439.png)
 
 日志显示界面地址为http://localhost:5000/con，刷新http://localhost:5000/api/values，日志界面接收日志信息并实时显示效果如图
 
-![image-20220927101740496](C:\Users\qmj\AppData\Roaming\Typora\typora-user-images\image-20220927101740496.png)
+![image-20220927101740496](./typora-user-images/image-20220927101740496.png)
 
 
 
@@ -22,7 +22,7 @@ netcore项目在浏览器输出日志，实际中的应用如下：
 
 新建net6 webapi项目，并添加Serilog.AspNetCore包引用
 
-![image-20220927102253966](C:\Users\qmj\AppData\Roaming\Typora\typora-user-images\image-20220927102253966.png)
+![image-20220927102253966](./typora-user-images/image-20220927102253966.png)
 
 在program中添加代码使用serilog
 
@@ -38,25 +38,25 @@ builder.Host.UseSerilog((context, logger) => {
 
 在WeatherForecastController中添加代码输出日志
 
-![image-20220927103547737](C:\Users\qmj\AppData\Roaming\Typora\typora-user-images\image-20220927103547737.png)
+![image-20220927103547737](./typora-user-images/image-20220927103547737.png)
 
 控制台和日志输出了代码中的日志信息，serilog启用正常。
 
-![image-20220927103912673](C:\Users\qmj\AppData\Roaming\Typora\typora-user-images\image-20220927103912673.png)
+![image-20220927103912673](./typora-user-images/image-20220927103912673.png)
 
 
 
 将下载的Lavspent.BrowserLogger类库添加到webapi项目所在的解决方案中
 
-![image-20220927102625863](C:\Users\qmj\AppData\Roaming\Typora\typora-user-images\image-20220927102625863.png)
+![image-20220927102625863](./typora-user-images/image-20220927102625863.png)
 
 按照Lavspent.BrowserLogger使用说明
 
-![image-20220927102815944](C:\Users\qmj\AppData\Roaming\Typora\typora-user-images\image-20220927102815944.png)
+![image-20220927102815944](./typora-user-images/image-20220927102815944.png)
 
 添加使用代码
 
-![image-20220927110306944](C:\Users\qmj\AppData\Roaming\Typora\typora-user-images\image-20220927110306944.png)
+![image-20220927110306944](./typora-user-images/image-20220927110306944.png)
 
 ```c#
 using Lavspent.BrowserLogger.Extensions;
@@ -119,15 +119,15 @@ BrowserLoggerOptions选项从配置文件appsetting.json读取
 
 集成完成后，通过swagger触发测试方法
 
-![image-20220927112200047](C:\Users\qmj\AppData\Roaming\Typora\typora-user-images\image-20220927112200047.png)
+![image-20220927112200047](./typora-user-images/image-20220927112200047.png)
 
 发现Browser Logger没有输出日志信息
 
-![image-20220927112136407](C:\Users\qmj\AppData\Roaming\Typora\typora-user-images\image-20220927112136407.png)
+![image-20220927112136407](./typora-user-images/image-20220927112136407.png)
 
 发现是Serilog的使用问题，Serilog提供各种接收器（Sink）来处理日志输出到不同位置。在program中这选中代码F12。
 
-![image-20220927115257715](C:\Users\qmj\AppData\Roaming\Typora\typora-user-images\image-20220927115257715.png)
+![image-20220927115257715](./typora-user-images/image-20220927115257715.png)
 
 Serilog提供了ConsoleSink、FileSink来处理将日志输出到控制台和输出到文件。
 
@@ -141,7 +141,7 @@ Serilog提供了ConsoleSink、FileSink来处理将日志输出到控制台和输
 
 在类库项目中添加接收器类BrowserSink.cs;添加扩展类BrowserLoggerConfigurationExtensions.cs
 
-![image-20220927115833715](C:\Users\qmj\AppData\Roaming\Typora\typora-user-images\image-20220927115833715.png)
+![image-20220927115833715](./typora-user-images/image-20220927115833715.png)
 
 代码如下：
 
@@ -276,7 +276,7 @@ builder.Host.UseSerilog((context, logger) => {
 
 在swagger触发测试方法，这时候Browser Logger接收到了日志信息：
 
-![image-20220927151612532](C:\Users\qmj\AppData\Roaming\Typora\typora-user-images\image-20220927151612532.png)
+![image-20220927151612532](./typora-user-images/image-20220927151612532.png)
 
 我们在WeatherForecastController添加方法测试异常信息
 
@@ -305,7 +305,7 @@ builder.Host.UseSerilog((context, logger) => {
 
 启动项目，在swagger触发TestError，Browser Logger接收到了报错日志信息，并提示我们报错的代码位置是哪一行，这在系统运行的时候是很有帮助的，开发人员不用去数据库、或者服务器日志文件就能看到报错的信息。
 
-![image-20220927154347030](C:\Users\qmj\AppData\Roaming\Typora\typora-user-images\image-20220927154347030.png)
+![image-20220927154347030](./typora-user-images/image-20220927154347030.png)
 
 但是报错信息还是不够显眼，报错信息如果能变成红色显示就能很快区分开来；而且页面会一直显示接收到的日志信息，当接收到报错信息最好能断开接收器，这样就能停留在报错信息的位置，并去排查错误了。基于此，对Default.html改造一下
 
@@ -812,21 +812,21 @@ builder.Host.UseSerilog((context, logger) => {
 
 启动项目接着触发TestError，这时候我们看到报错信息已经变成了红色一目了然。
 
-![image-20220927163326149](C:\Users\qmj\AppData\Roaming\Typora\typora-user-images\image-20220927163326149.png)
+![image-20220927163326149](./typora-user-images/image-20220927163326149.png)
 
 点击CONNECTED,连接信息就会变成DISCONNETED,尝试触发测试方法，Browser Logger不再接收新的信息。
 
-![image-20220927163526551](C:\Users\qmj\AppData\Roaming\Typora\typora-user-images\image-20220927163526551.png)
+![image-20220927163526551](./typora-user-images/image-20220927163526551.png)
 
 
 
 模拟不同人员使用系统，我们只关注触发报错的用户日志信息。修改控制代码
 
-![](C:\Users\qmj\AppData\Roaming\Typora\typora-user-images\image-20220927165405831.png)
+![20220927165405831](./typora-user-images/image-20220927165405831.png)
 
 在日志接收页面的过滤器中输入过滤关键字：456（模拟报错用户），点击GetWeatherForecast、TestError。
 
-![image-20220927165612873](C:\Users\qmj\AppData\Roaming\Typora\typora-user-images\image-20220927165612873.png)
+![image-20220927165612873](./typora-user-images/image-20220927165612873.png)
 
 日志显示页面只显示包含[token:456]的报错信息。
 
