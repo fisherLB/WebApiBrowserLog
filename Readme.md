@@ -1,8 +1,6 @@
 # netcore在浏览器显示系统日志
 注：本示例参考 [**johnwas**](https://github.com/johnwas) 的代码来实现<br>
-在项目部署运行时若系统报错，通常只能通过查看系统日志文件的方式来排查代码报错；这是一个非常不便的事情，通常需要登录服务器并找到系统日志文件，才能打开日志查看具体的日志信息；就算将日志记录到数据库或者elasticserach，查看起来也非常不便；若系统报错，直接打开浏览器就能看到报错信息，并确认报错的代码位置，这将非常有用非常酷。我们将实现这样的功能，netcore项目在浏览器输出日志实际中的效果如下：
-![image](https://img2022.cnblogs.com/blog/883152/202209/883152-20220928091844846-580200501.png)
-
+![image](https://img2022.cnblogs.com/blog/883152/202209/883152-20220928103710651-1935144456.png)
 
 在浏览器显示日志是根据[https://github.com/lavspent/Lavspent.BrowserLogger](https://github.com/lavspent/Lavspent.BrowserLogger)为基础进行改造的。
 
@@ -834,10 +832,7 @@ builder.Host.UseSerilog((context, logger) => {
 
 点击CONNECTED,连接信息就会变成DISCONNETED,尝试触发测试方法，Browser Logger不再接收新的信息。
 
-![image](https://img2022.cnblogs.com/blog/883152/202209/883152-20220928092632729-177710293.png)
-
-
-
+![image](https://img2022.cnblogs.com/blog/883152/202209/883152-20220928104516198-299383643.png)
 
 模拟不同人员使用系统，我们只关注触发报错的用户日志信息。修改控制代码
 
@@ -847,8 +842,6 @@ builder.Host.UseSerilog((context, logger) => {
 在日志接收页面的过滤器中输入过滤关键字：456（模拟报错用户），点击GetWeatherForecast、TestError。
 
 ![image](https://img2022.cnblogs.com/blog/883152/202209/883152-20220928092654810-2077138927.png)
-
-
 日志显示页面只显示包含[token:456]的报错信息。
 
 真实项目中如果要设定一些日志的额外信息，可通Enrichment来设置，详细信息可查看：https://github.com/serilog/serilog/wiki/Enrichment。
