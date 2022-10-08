@@ -845,5 +845,8 @@ builder.Host.UseSerilog((context, logger) => {
 日志显示页面只显示包含[token:456]的报错信息。
 
 真实项目中如果要设定一些日志的额外信息，可通Enrichment来设置，详细信息可查看：https://github.com/serilog/serilog/wiki/Enrichment。
+对于日志显示可能暴露敏感信息的担忧，可以在这个基础上加上安全功能，就像hangfire Dashboard一样添加权限认证，认证通过后才显示日志信息。（该功能需要自己实现）
+
+![img](https://img-blog.csdnimg.cn/img_convert/4cd0ae9c0237716902f562086c5e54e5.png)
 
 博客园地址：[https://www.cnblogs.com/qmjblog/articles/16736898.html](https://www.cnblogs.com/qmjblog/articles/16736898.html)
